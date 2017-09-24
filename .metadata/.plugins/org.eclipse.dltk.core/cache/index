@@ -3235,11 +3235,7 @@
   <entries path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/net-telnet-0.1.1/LICENSE.txt" timestamp="1505454428000" lastAccessTime="1506219285768"/>
   <entries path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/net-telnet-0.1.1/README.md" timestamp="1505454428000" lastAccessTime="1506219285770"/>
   <entries path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/did_you_mean-1.1.0/doc/CHANGELOG.md.erb" timestamp="1505454428000" lastAccessTime="1506219285993"/>
-  <entries path="D:/Projects/DT6.Popelenkov/Ruby1/Main.rb" timestamp="1506139141467" lastAccessTime="1506219291318">
-    <attributes name="indexed" location="2838196607/4031358946/2123.idx"/>
-  </entries>
-  <entries path="D:/Projects/DT6.Popelenkov/Ruby2/ParallelArray.rb" timestamp="1506219477444" lastAccessTime="1506219477963"/>
-  <entries path="D:/Projects/DT6.Popelenkov/Ruby2" timestamp="1506219477442" lastAccessTime="1506219477965">
+  <entries path="D:/Projects/DT6.Popelenkov/Ruby2" timestamp="1506219477442" lastAccessTime="1506229445037">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/3767956738/2125.idx"/>
   </entries>
 </cache:CacheIndex>
