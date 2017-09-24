@@ -1,40 +1,61 @@
 class Array
   private
-  def parallel
+  def parallel(method, *args)
     threads = []
-    threads << Thread.new do
-      res = yield(Thread.current)
+    self.each do |elem|
+      threads << Thread.new do
+        Thread.current[:output] = yield elem
+        Thread.current[:elem] = elem
+      end
     end
+    threads.send(method, *args) do |thread|
+         thread.join
+         thread[:output]
+    end
+  end
+  
+  private
+  def smart_parallel(method, *args)
+    res = parallel(method, *args) do |elem|
+       yield elem
+    end
+    if (method == "select")
+      res = res.map do |thread|
+        thread[:elem]
+      end
+    end
+    res
   end
   
   public
   def map_parallel
-    map do |elem|
-      thread =  parallel do
-        elem = yield(elem)
-      end
-      thread.join
-      elem
+    parallel("map") do |elem|
+      yield elem
     end
   end
   
   public
   def any_parallel?
-      block = false
-      any? do |elem|
-        parallel do |thread|
-          thread[:local_block] = yield(elem)
-          puts elem.to_s + " " + thread[:local_block].to_s + "/n"
-          block |= thread[:local_block]
-        end
-        block
-      end
+    parallel("any?") do |elem|
+      yield elem
+    end
   end
   
-  
+  public
+  def all_parallel?
+    parallel("all?") do |elem|
+      yield elem
+    end
+  end
+  public
+  def select_parallel
+    smart_parallel("select") do |elem|
+      yield elem
+    end
+  end
 end
 
 
-a = (1..20).map { |obj| obj }
+a = (3..20).map { |obj| obj }
 
-puts a.map_parallel { |obj| 3+obj }
+puts a.select_parallel { |obj| 6 <= obj }
