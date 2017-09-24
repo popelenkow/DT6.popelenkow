@@ -332,3 +332,44 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-09-24 09:06:15.901 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-24 09:14:08.071
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-09-24 09:14:21.443
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: post_arr [in Main.rb [in <default> [in <project root> [in Ruby1]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-09-24 09:14:21.481
+!MESSAGE post_arr [in Main.rb [in <default> [in <project root> [in Ruby1]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-09-24 09:15:02.256
+!MESSAGE Unable to find any indexer
