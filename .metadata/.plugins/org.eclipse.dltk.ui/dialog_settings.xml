@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="0" key="TypeHierarchyViewPart.orientation"/>
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<section name="CallHierarchySearchScope">
 	</section>
 	<section name="org.eclipse.dltk.internal.ui.scriptview.ScriptExplorerPart">

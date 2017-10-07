@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="2160" environment="org.eclipse.dltk.core.environment.localEnvironment">
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" lastIndex="2162" environment="org.eclipse.dltk.core.environment.localEnvironment">
   <entries path="C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/did_you_mean-1.1.0/lib/did_you_mean/core_ext/name_error.rb" timestamp="1505454428000" lastAccessTime="1507341340839">
     <attributes name="indexed" location="2838196607/889395578/287.idx"/>
   </entries>
@@ -3241,7 +3241,7 @@
   <entries path="D:/Projects/DT6.Popelenkov/Ruby2" timestamp="1506607326849" lastAccessTime="1507341341553">
     <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/3767956738/2145.idx"/>
   </entries>
-  <entries path="D:/Projects/DT6.Popelenkov/Ruby3" timestamp="1507346265622" lastAccessTime="1507346768281">
-    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/3767956738/2159.idx"/>
+  <entries path="D:/Projects/DT6.Popelenkov/Ruby3" timestamp="1507346769688" lastAccessTime="1507346998057">
+    <attributes name=".dltk.core.archive.cache.lastaccess" location="2838196607/3767956738/2161.idx"/>
   </entries>
 </cache:CacheIndex>
