@@ -1,0 +1,1 @@
+Сведения  29.9.2017 18:20:19  Microsoft-Windows-WindowsUpdateClient  19  Агент Центра обновления Windows	Установка завершена: следующее обновление было успешно установлено: 9WZDNCRFHWD2-Microsoft.MicrosoftSolitaireCollection

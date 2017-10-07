@@ -1302,3 +1302,870 @@ org.eclipse.dltk.core.ModelException: mathod [in ParallelArray.rb [in <default> 
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
 !SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-09-24 19:24:25.542
 !MESSAGE mathod [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+!SESSION 2017-09-28 18:20:39.223 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-28 18:23:47.038
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-09-28 18:34:28.696 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-09-28 18:36:54.620
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-09-28 20:57:48.816
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: @thread_num [in g.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-09-28 20:57:48.854
+!MESSAGE @thread_num [in g.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-09-28 20:59:20.160
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: data [in g.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-09-28 20:59:20.160
+!MESSAGE data [in g.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-09-28 21:21:31.375
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: method [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-09-28 21:21:31.375
+!MESSAGE method [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+
+!ENTRY com.genuitec.eclipse.theming.ui 4 0 2017-10-01 17:26:42.036
+!MESSAGE www.genuitec.com
+!STACK 0
+java.net.UnknownHostException: www.genuitec.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.getApprovedDefinitions(IconDownloaderJob.java:86)
+	at com.genuitec.eclipse.theming.ui.IconDownloaderJob.run(IconDownloaderJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-04 15:47:29.444
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: rx [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-04 15:47:29.452
+!MESSAGE rx [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-04 15:52:14.148
+!MESSAGE Unable to find any indexer
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-04 16:16:25.107
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: systemDataString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-04 16:16:25.107
+!MESSAGE systemDataString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-04 16:17:09.656
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-04 16:17:09.656
+!MESSAGE data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-04 16:21:20.956
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: res [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-04 16:21:20.956
+!MESSAGE res [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-04 17:13:05.682
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: systemData [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-04 17:13:05.683
+!MESSAGE systemData [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+!SESSION 2017-10-07 08:53:55.142 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-07 08:55:25.639
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 08:59:43.521
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 08:59:43.533
+!MESSAGE data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:02:42.909
+!MESSAGE Unable to find any indexer
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:13:34.986
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:13:34.986
+!MESSAGE data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:14:23.017
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: systemDataString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:14:23.017
+!MESSAGE systemDataString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:14:28.364
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: systemDataString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:14:28.365
+!MESSAGE systemDataString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:14:38.829
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: systemDataString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:14:38.830
+!MESSAGE systemDataString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:19:51.148
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: d [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:19:51.149
+!MESSAGE d [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:21:20.316
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: i [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:21:20.317
+!MESSAGE i [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:21:52.391
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:21:52.392
+!MESSAGE data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:22:55.535
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:22:55.536
+!MESSAGE commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:23:10.240
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: d [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:23:10.240
+!MESSAGE d [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:23:11.236
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: d [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:23:11.236
+!MESSAGE d [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:25:18.350
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:25:18.351
+!MESSAGE commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:25:21.690
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:25:21.691
+!MESSAGE commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:25:43.881
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:25:43.883
+!MESSAGE data [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:37:57.549
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:37:57.550
+!MESSAGE commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:39:24.566
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:39:24.567
+!MESSAGE commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:46:33.285
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: res [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:46:33.286
+!MESSAGE res [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:47:12.483
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:47:12.484
+!MESSAGE commandString [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:53:48.959
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:53:48.959
+!MESSAGE source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 09:54:47.828
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 09:54:47.830
+!MESSAGE source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 10:05:35.237
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 10:05:35.238
+!MESSAGE source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 10:06:59.442
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: res [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 10:06:59.442
+!MESSAGE res [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 10:18:26.830
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 10:18:26.831
+!MESSAGE source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 10:20:39.599
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: d [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 10:20:39.600
+!MESSAGE d [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 10:23:46.538
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 10:23:46.538
+!MESSAGE source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist

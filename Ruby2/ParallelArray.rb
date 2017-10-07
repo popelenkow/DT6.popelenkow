@@ -24,6 +24,7 @@ class Array
         thread[:elem]
       end
     end
+    
     res
   end
   

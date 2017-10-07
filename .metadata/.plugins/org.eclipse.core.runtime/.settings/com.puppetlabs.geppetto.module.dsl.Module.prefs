@@ -1,10 +1,10 @@
-com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.default.color=208,208,208
-com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.deprecatedKey.color=255,255,255
-com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.keyword.color=0,208,208
-com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.number.color=255,255,0
-com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.punctuation.color=208,208,208
-com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.string.color=220,120,220
-com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.task.color=0,255,0
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.default.color=249,249,249
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.deprecatedKey.color=249,249,249
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.keyword.color=234,156,119
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.number.color=249,249,249
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.punctuation.color=249,249,249
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.string.color=118,186,83
+com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.task.color=168,168,168
 eclipse.preferences.version=1
 overriddenByCSS=,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.default.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.keyword.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.task.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.deprecatedKey.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.number.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.string.color,com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.punctuation.color,
 predarkestdark.com.puppetlabs.geppetto.module.dsl.Module.syntaxColorer.tokenStyles.default.color=224,226,228
