@@ -2169,3 +2169,2082 @@ org.eclipse.dltk.core.ModelException: source [in Main.rb [in <default> [in <proj
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
 !SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 10:23:46.538
 !MESSAGE source [in Main.rb [in <default> [in <project root> [in Ruby3]]]] does not exist
+!SESSION 2017-10-07 10:55:47.057 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-07 10:56:37.760
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 10:58:07.014
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: count_threads [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 10:58:07.019
+!MESSAGE count_threads [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 10:58:57.610
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: method [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 10:58:57.611
+!MESSAGE method [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 11:00:20.799
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: threads [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 11:00:20.799
+!MESSAGE threads [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 11:00:45.605
+!MESSAGE Unable to find any indexer
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-10-07 11:01:02.281
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: method [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-10-07 11:01:02.282
+!MESSAGE method [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+!SESSION 2017-10-11 20:55:00.185 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-11 20:58:38.266
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-11 20:59:17.819
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2017-10-11 21:01:27.077
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=3202
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-10-11 21:03:18.358
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/releases/oxygen/201710111000.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:216)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:199)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:280)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.gatherAvailableInstallableUnits(SimplePlanner.java:267)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getSolutionFor(SimplePlanner.java:328)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:387)
+	at org.eclipse.equinox.internal.p2.operations.PlannerResolutionJob.runModal(PlannerResolutionJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:115)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolveModal(ProfileChangeOperationComputer.java:378)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolve(ProfileChangeOperationComputer.java:367)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolveInstall(ProfileChangeOperationComputer.java:279)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.run(ProfileChangeOperationComputer.java:177)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-10-11 21:03:18.368
+!MESSAGE No repository found at http://download.eclipse.org/releases/oxygen/201710111000.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-10-11 21:06:58.727
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/releases/oxygen/201710111000.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:543)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:543)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:164)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:145)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:92)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:108)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:252)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:102)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:77)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:45)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-10-11 21:06:58.728
+!MESSAGE No repository found at http://download.eclipse.org/releases/oxygen/201710111000.
+!SESSION 2017-10-11 21:15:45.582 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/D:/Projects/DT6.Popelenkov/ -product org.eclipse.epp.package.java.product
+
+!ENTRY ccw.core 1 0 2017-10-11 21:16:04.257
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2017-10-11 21:16:07.027
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.1"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [prismatic/schema "0.4.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2017-10-11 21:16:28.071
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-11 21:17:00.973
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:04.863
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl\ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:04.866
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:05.389
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world\hello-world.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:05.391
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:08.241
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink\script.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:08.242
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:09.090
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager\ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:09.092
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:09.593
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom\ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:09.595
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2017-10-11 21:17:09.597
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2017-10-11 21:21:45.768
+!MESSAGE Stopping ccw nREPL server...
+!SESSION 2017-10-11 21:21:46.859 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ccw.core 1 0 2017-10-11 21:22:05.663
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2017-10-11 21:22:07.957
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.1"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [prismatic/schema "0.4.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2017-10-11 21:22:22.709
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-11 21:22:51.670
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY ccw.core 1 0 2017-10-11 21:22:58.932
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl\ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:22:58.941
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2017-10-11 21:22:59.343
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world\hello-world.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:22:59.353
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2017-10-11 21:23:00.382
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink\script.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:23:00.383
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2017-10-11 21:23:00.736
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager\ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:23:00.738
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2017-10-11 21:23:01.105
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom\ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:23:01.106
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2017-10-11 21:23:01.108
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 4 0 2017-10-11 21:24:27.570
+!MESSAGE Error while creating new project Clojure1
+!STACK 0
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:68)
+	at ccw.util.ClojureInvoker.__(ClojureInvoker.java:34)
+	at ccw.leiningen.NewLeiningenProjectWizard.doPerformFinish(NewLeiningenProjectWizard.java:337)
+	at ccw.leiningen.NewLeiningenProjectWizard.performFinish(NewLeiningenProjectWizard.java:323)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:115)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at classlojure.core$invoke_in_STAR_.doInvoke(core.clj:61)
+	at clojure.lang.RestFn.invoke(RestFn.java:494)
+	at classlojure.core$eval_in_STAR_$print_read_eval__4881.invoke(core.clj:79)
+	at classlojure.core$eval_in_STAR_.doInvoke(core.clj:81)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at classlojure.core$eval_in.doInvoke(core.clj:100)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at ccw.leiningen.util$eval_in_project.doInvoke(util.clj:95)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at ccw.leiningen.util$lein_new.invoke(util.clj:166)
+	at ccw.leiningen.wizard$perform_finish.invoke(wizard.clj:29)
+	at clojure.lang.Var.invoke(Var.java:394)
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:64)
+	... 45 more
+Caused by: clojure.lang.ExceptionInfo: Project names containing uppercase letters are not recommended 
+and will be rejected by repositories like Clojars and Central. 
+If you're truly unable to use a lowercase name, please set the 
+LEIN_BREAK_CONVENTION environment variable and try again. {}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.core$eval2880$fn__2881$fn__2882.doInvoke(NO_SOURCE_FILE:0)
+	at clojure.lang.RestFn.invoke(RestFn.java:457)
+	at leiningen.new$create.doInvoke(new.clj:67)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at leiningen.new$new.doInvoke(new.clj:188)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.doInvoke(core.clj:638)
+	at clojure.lang.RestFn.invoke(RestFn.java:749)
+	at clojure.core$eval2886.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	at clojure.core$eval.invoke(core.clj:3081)
+	at clojure.core$eval1636.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	... 68 more
+
+!ENTRY ccw.core 4 0 2017-10-11 21:24:37.012
+!MESSAGE Error while creating new project Clojure1
+!STACK 0
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:68)
+	at ccw.util.ClojureInvoker.__(ClojureInvoker.java:34)
+	at ccw.leiningen.NewLeiningenProjectWizard.doPerformFinish(NewLeiningenProjectWizard.java:337)
+	at ccw.leiningen.NewLeiningenProjectWizard.performFinish(NewLeiningenProjectWizard.java:323)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:115)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at classlojure.core$invoke_in_STAR_.doInvoke(core.clj:61)
+	at clojure.lang.RestFn.invoke(RestFn.java:494)
+	at classlojure.core$eval_in_STAR_$print_read_eval__4881.invoke(core.clj:79)
+	at classlojure.core$eval_in_STAR_.doInvoke(core.clj:81)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at classlojure.core$eval_in.doInvoke(core.clj:100)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at ccw.leiningen.util$eval_in_project.doInvoke(util.clj:95)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at ccw.leiningen.util$lein_new.invoke(util.clj:166)
+	at ccw.leiningen.wizard$perform_finish.invoke(wizard.clj:29)
+	at clojure.lang.Var.invoke(Var.java:394)
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:64)
+	... 45 more
+Caused by: clojure.lang.ExceptionInfo: Project names containing uppercase letters are not recommended 
+and will be rejected by repositories like Clojars and Central. 
+If you're truly unable to use a lowercase name, please set the 
+LEIN_BREAK_CONVENTION environment variable and try again. {}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.core$eval2910$fn__2911$fn__2912.doInvoke(NO_SOURCE_FILE:0)
+	at clojure.lang.RestFn.invoke(RestFn.java:457)
+	at leiningen.new$create.doInvoke(new.clj:67)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at leiningen.new$new.doInvoke(new.clj:188)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.doInvoke(core.clj:638)
+	at clojure.lang.RestFn.invoke(RestFn.java:749)
+	at clojure.core$eval2916.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	at clojure.core$eval.invoke(core.clj:3081)
+	at clojure.core$eval2906.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	... 68 more
+
+!ENTRY ccw.core 4 0 2017-10-11 21:27:14.606
+!MESSAGE Error while creating new project Clojure1
+!STACK 0
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:68)
+	at ccw.util.ClojureInvoker.__(ClojureInvoker.java:34)
+	at ccw.leiningen.NewLeiningenProjectWizard.doPerformFinish(NewLeiningenProjectWizard.java:337)
+	at ccw.leiningen.NewLeiningenProjectWizard.performFinish(NewLeiningenProjectWizard.java:323)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:115)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at classlojure.core$invoke_in_STAR_.doInvoke(core.clj:61)
+	at clojure.lang.RestFn.invoke(RestFn.java:494)
+	at classlojure.core$eval_in_STAR_$print_read_eval__4881.invoke(core.clj:79)
+	at classlojure.core$eval_in_STAR_.doInvoke(core.clj:81)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at classlojure.core$eval_in.doInvoke(core.clj:100)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at ccw.leiningen.util$eval_in_project.doInvoke(util.clj:95)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at ccw.leiningen.util$lein_new.invoke(util.clj:166)
+	at ccw.leiningen.wizard$perform_finish.invoke(wizard.clj:29)
+	at clojure.lang.Var.invoke(Var.java:394)
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:64)
+	... 45 more
+Caused by: clojure.lang.ExceptionInfo: Project names containing uppercase letters are not recommended 
+and will be rejected by repositories like Clojars and Central. 
+If you're truly unable to use a lowercase name, please set the 
+LEIN_BREAK_CONVENTION environment variable and try again. {}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.core$eval2940$fn__2941$fn__2942.doInvoke(NO_SOURCE_FILE:0)
+	at clojure.lang.RestFn.invoke(RestFn.java:457)
+	at leiningen.new$create.doInvoke(new.clj:67)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at leiningen.new$new.doInvoke(new.clj:188)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.doInvoke(core.clj:638)
+	at clojure.lang.RestFn.invoke(RestFn.java:749)
+	at clojure.core$eval2946.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	at clojure.core$eval.invoke(core.clj:3081)
+	at clojure.core$eval2936.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	... 67 more
+
+!ENTRY ccw.core 4 0 2017-10-11 21:27:53.624
+!MESSAGE Error while creating new project Clojure1
+!STACK 0
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:68)
+	at ccw.util.ClojureInvoker.__(ClojureInvoker.java:34)
+	at ccw.leiningen.NewLeiningenProjectWizard.doPerformFinish(NewLeiningenProjectWizard.java:337)
+	at ccw.leiningen.NewLeiningenProjectWizard.performFinish(NewLeiningenProjectWizard.java:323)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:115)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor112.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at classlojure.core$invoke_in_STAR_.doInvoke(core.clj:61)
+	at clojure.lang.RestFn.invoke(RestFn.java:494)
+	at classlojure.core$eval_in_STAR_$print_read_eval__4881.invoke(core.clj:79)
+	at classlojure.core$eval_in_STAR_.doInvoke(core.clj:81)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at classlojure.core$eval_in.doInvoke(core.clj:100)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at ccw.leiningen.util$eval_in_project.doInvoke(util.clj:95)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at ccw.leiningen.util$lein_new.invoke(util.clj:166)
+	at ccw.leiningen.wizard$perform_finish.invoke(wizard.clj:29)
+	at clojure.lang.Var.invoke(Var.java:394)
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:64)
+	... 45 more
+Caused by: clojure.lang.ExceptionInfo: Project names containing uppercase letters are not recommended 
+and will be rejected by repositories like Clojars and Central. 
+If you're truly unable to use a lowercase name, please set the 
+LEIN_BREAK_CONVENTION environment variable and try again. {}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.core$eval2970$fn__2971$fn__2972.doInvoke(NO_SOURCE_FILE:0)
+	at clojure.lang.RestFn.invoke(RestFn.java:457)
+	at leiningen.new$create.doInvoke(new.clj:67)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at leiningen.new$new.doInvoke(new.clj:188)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.doInvoke(core.clj:638)
+	at clojure.lang.RestFn.invoke(RestFn.java:749)
+	at clojure.core$eval2976.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	at clojure.core$eval.invoke(core.clj:3081)
+	at clojure.core$eval2966.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	... 67 more
+
+!ENTRY ccw.core 1 0 2017-10-11 21:29:03.506
+!MESSAGE Stopping ccw nREPL server...
+!SESSION 2017-10-11 21:29:07.606 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data D:/Projects/DT6.Popelenkov -product org.eclipse.epp.package.java.product
+
+!ENTRY ccw.core 1 0 2017-10-11 21:29:20.909
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2017-10-11 21:29:23.092
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.1"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [prismatic/schema "0.4.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2017-10-11 21:29:36.259
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-11 21:30:03.578
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:08.055
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl\ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:08.138
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:08.517
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world\hello-world.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:08.521
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:09.693
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink\script.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:09.695
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:10.388
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager\ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:10.389
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:11.179
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom\ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:11.254
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:11.255
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2017-10-11 21:30:52.021
+!MESSAGE Stopping ccw nREPL server...
+
+!ENTRY com.genuitec.eclipse.monitor 4 0 2017-10-11 21:30:53.444
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in com.genuitec.eclipse.monitor.internal.MonitorPlugin.stop() of bundle com.genuitec.eclipse.monitor.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:855)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:947)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1588)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.jniwrapper.util.ProcessorInfo.b(SourceFile:95)
+	at com.jniwrapper.util.ProcessorInfo.getInstance(SourceFile:88)
+	at com.genuitec.eclipse.core.activation.SystemIdFactory.D(Unknown Source)
+	at com.genuitec.eclipse.core.activation.SystemIdFactory.create(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.getSystemId(Unknown Source)
+	at com.genuitec.eclipse.monitor.internal.collector.server.ServerMetricsCollector.getSystemId(ServerMetricsCollector.java:526)
+	at com.genuitec.eclipse.monitor.internal.collector.server.ServerMetricsCollector.saveToFile(ServerMetricsCollector.java:364)
+	at com.genuitec.eclipse.monitor.internal.collector.server.ServerMetricsCollector.stopMonitoring(ServerMetricsCollector.java:220)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.stopMonitoring(MetricsManager.java:245)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.dispose(MetricsManager.java:168)
+	at com.genuitec.eclipse.monitor.internal.MonitorPlugin.stop(MonitorPlugin.java:43)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828)
+	... 13 more
+Caused by: com.jniwrapper.LibraryNotFoundException: Cannot find JNIWrapper native library (jniwrap64.dll) in java.library.path: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\wget;C:\Ruby24-x64\bin;C:\Users\VladlenMacro\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;;.
+Root exception:
+java.lang.ExceptionInInitializerError
+	at com.jniwrapper.util.ProcessorInfo.b(SourceFile:95)
+	at com.jniwrapper.util.ProcessorInfo.getInstance(SourceFile:88)
+	at com.genuitec.eclipse.core.activation.SystemIdFactory.D(Unknown Source)
+	at com.genuitec.eclipse.core.activation.SystemIdFactory.create(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.getSystemId(Unknown Source)
+	at com.genuitec.eclipse.monitor.internal.collector.server.ServerMetricsCollector.getSystemId(ServerMetricsCollector.java:526)
+	at com.genuitec.eclipse.monitor.internal.collector.server.ServerMetricsCollector.saveToFile(ServerMetricsCollector.java:364)
+	at com.genuitec.eclipse.monitor.internal.collector.server.ServerMetricsCollector.stopMonitoring(ServerMetricsCollector.java:220)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.stopMonitoring(MetricsManager.java:245)
+	at com.genuitec.eclipse.monitor.internal.MetricsManager.dispose(MetricsManager.java:168)
+	at com.genuitec.eclipse.monitor.internal.MonitorPlugin.stop(MonitorPlugin.java:43)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:835)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:828)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:947)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1588)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.jniwrapper.LibraryNotFoundException: Cannot find JNIWrapper native library (jniwrap64.dll) in java.library.path: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\wget;C:\Ruby24-x64\bin;C:\Users\VladlenMacro\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32;;.
+!SESSION 2017-10-11 21:30:55.920 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data D:/Projects/DT6.Popelenkov -product org.eclipse.epp.package.java.product
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:05.382
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:07.556
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.1"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [prismatic/schema "0.4.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:21.123
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-11 21:31:47.427
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:49.104
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl\ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:49.188
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:49.550
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world\hello-world.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:49.553
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:51.266
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink\script.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:51.268
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:52.137
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager\ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:52.138
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:52.863
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom\ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:52.865
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2017-10-11 21:31:52.867
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2017-10-11 21:33:28.399
+!MESSAGE Change Clojure language support : Clojure language support successfully added for project a1.
+
+!ENTRY ccw.core 4 0 2017-10-11 21:34:07.369
+!MESSAGE Error while creating new project Clojure1
+!STACK 0
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:68)
+	at ccw.util.ClojureInvoker.__(ClojureInvoker.java:34)
+	at ccw.leiningen.NewLeiningenProjectWizard.doPerformFinish(NewLeiningenProjectWizard.java:337)
+	at ccw.leiningen.NewLeiningenProjectWizard.performFinish(NewLeiningenProjectWizard.java:323)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:115)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at classlojure.core$invoke_in_STAR_.doInvoke(core.clj:61)
+	at clojure.lang.RestFn.invoke(RestFn.java:494)
+	at classlojure.core$eval_in_STAR_$print_read_eval__4881.invoke(core.clj:79)
+	at classlojure.core$eval_in_STAR_.doInvoke(core.clj:81)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at classlojure.core$eval_in.doInvoke(core.clj:100)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at ccw.leiningen.util$eval_in_project.doInvoke(util.clj:95)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at ccw.leiningen.util$lein_new.invoke(util.clj:166)
+	at ccw.leiningen.wizard$perform_finish.invoke(wizard.clj:29)
+	at clojure.lang.Var.invoke(Var.java:394)
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:64)
+	... 45 more
+Caused by: clojure.lang.ExceptionInfo: Project names containing uppercase letters are not recommended 
+and will be rejected by repositories like Clojars and Central. 
+If you're truly unable to use a lowercase name, please set the 
+LEIN_BREAK_CONVENTION environment variable and try again. {}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.core$eval2921$fn__2922$fn__2923.doInvoke(NO_SOURCE_FILE:0)
+	at clojure.lang.RestFn.invoke(RestFn.java:457)
+	at leiningen.new$create.doInvoke(new.clj:67)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at leiningen.new$new.doInvoke(new.clj:188)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.doInvoke(core.clj:638)
+	at clojure.lang.RestFn.invoke(RestFn.java:749)
+	at clojure.core$eval2927.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	at clojure.core$eval.invoke(core.clj:3081)
+	at clojure.core$eval2917.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	... 68 more
+
+!ENTRY ccw.core 4 0 2017-10-11 21:35:53.676
+!MESSAGE Error while creating new project MyClojure1
+!STACK 0
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:68)
+	at ccw.util.ClojureInvoker.__(ClojureInvoker.java:34)
+	at ccw.leiningen.NewLeiningenProjectWizard.doPerformFinish(NewLeiningenProjectWizard.java:337)
+	at ccw.leiningen.NewLeiningenProjectWizard.performFinish(NewLeiningenProjectWizard.java:323)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.actions.NewProjectAction.run(NewProjectAction.java:115)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor113.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at classlojure.core$invoke_in_STAR_.doInvoke(core.clj:61)
+	at clojure.lang.RestFn.invoke(RestFn.java:494)
+	at classlojure.core$eval_in_STAR_$print_read_eval__4881.invoke(core.clj:79)
+	at classlojure.core$eval_in_STAR_.doInvoke(core.clj:81)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at classlojure.core$eval_in.doInvoke(core.clj:100)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at ccw.leiningen.util$eval_in_project.doInvoke(util.clj:95)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at ccw.leiningen.util$lein_new.invoke(util.clj:166)
+	at ccw.leiningen.wizard$perform_finish.invoke(wizard.clj:29)
+	at clojure.lang.Var.invoke(Var.java:394)
+	at ccw.util.ClojureUtils.invoke(ClojureUtils.java:64)
+	... 45 more
+Caused by: clojure.lang.ExceptionInfo: Project names containing uppercase letters are not recommended 
+and will be rejected by repositories like Clojars and Central. 
+If you're truly unable to use a lowercase name, please set the 
+LEIN_BREAK_CONVENTION environment variable and try again. {}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at clojure.core$eval2951$fn__2952$fn__2953.doInvoke(NO_SOURCE_FILE:0)
+	at clojure.lang.RestFn.invoke(RestFn.java:457)
+	at leiningen.new$create.doInvoke(new.clj:67)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at clojure.lang.AFn.applyToHelper(AFn.java:156)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at clojure.core$apply.invoke(core.clj:634)
+	at leiningen.new$new.doInvoke(new.clj:188)
+	at clojure.lang.RestFn.applyTo(RestFn.java:139)
+	at clojure.core$apply.doInvoke(core.clj:638)
+	at clojure.lang.RestFn.invoke(RestFn.java:749)
+	at clojure.core$eval2957.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6794)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	at clojure.core$eval.invoke(core.clj:3081)
+	at clojure.core$eval2947.invoke(NO_SOURCE_FILE:0)
+	at clojure.lang.Compiler.eval(Compiler.java:6804)
+	at clojure.lang.Compiler.eval(Compiler.java:6750)
+	... 67 more
+
+!ENTRY ccw.core 4 0 2017-10-11 21:36:33.167
+!MESSAGE Unexpected exception while executing Job Configuring Leiningen classpath dependencies for project MyClojure1
+!STACK 0
+java.lang.NullPointerException
+	at ccw.leiningen.util$project_clj.invoke(util.clj:101)
+	at ccw.leiningen.util$lein_project.doInvoke(util.clj:125)
+	at clojure.lang.RestFn.invoke(RestFn.java:439)
+	at ccw.leiningen.nature$lein_entries.invoke(nature.clj:93)
+	at ccw.leiningen.nature$reset_project_build_path.invoke(nature.clj:134)
+	at ccw.leiningen.nature$factory$reify__6746$fn__6750.invoke(nature.clj:167)
+	at ccw.eclipse$workspace_job$fn__2956.invoke(eclipse.clj:774)
+	at ccw.eclipse.proxy$org.eclipse.core.resources.WorkspaceJob$ff19274a.runInWorkspace(Unknown Source)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY ccw.core 1 0 2017-10-11 21:37:06.485
+!MESSAGE Change Clojure language support : Clojure language support successfully added for project clojure1.
+
+!ENTRY ccw.core 1 0 2017-10-11 21:38:49.040
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-11 21:38:49.058
+!MESSAGE Started ccw nREPL server: nrepl://127.0.0.1:51177
+
+!ENTRY ccw.core 1 0 2017-10-11 21:38:49.109
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM #1
+
+!ENTRY ccw.core 1 0 2017-10-11 21:38:49.522
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -Dccw.repl.launchid=08dfe960-812c-4086-baa8-62703f114d11 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-11 21:38:49.530
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM #1
+
+!ENTRY ccw.core 1 0 2017-10-11 21:39:41.150
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM #1 for getting the promise to set the port to nrepl://127.0.0.1:51185
+
+!ENTRY ccw.core 1 0 2017-10-11 21:40:52.514
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-11 21:40:52.537
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (1) #2
+
+!ENTRY ccw.core 1 0 2017-10-11 21:40:52.829
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -Dccw.repl.launchid=541cf52a-6c5b-4fad-b4da-02ee5d2f79a8 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-11 21:40:52.830
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (1) #2
+
+!ENTRY ccw.core 1 0 2017-10-11 21:41:38.193
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (1) #2 for getting the promise to set the port to nrepl://127.0.0.1:51200
+
+!ENTRY ccw.core 1 0 2017-10-11 21:41:44.481
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM #1
+
+!ENTRY ccw.core 1 0 2017-10-11 21:41:45.292
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM (1) #2
+
+!ENTRY ccw.core 2 0 2017-10-11 21:41:49.879
+!MESSAGE Connection to REPL URL nrepl://127.0.0.1:51200 failed due to Connection refused: connect
+!STACK 0
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at clojure.tools.nrepl$connect.doInvoke(nrepl.clj:184)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at clojure.tools.nrepl$add_socket_connect_method_BANG_$fn__2318.invoke(nrepl.clj:224)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:229)
+	at clojure.lang.Var.invoke(Var.java:379)
+	at clojure.tools.nrepl.Connection.<init>(Connection.java:68)
+	at clojure.tools.nrepl.Connection.<init>(Connection.java:64)
+	at ccw.repl.REPLView.configure(REPLView.java:572)
+	at ccw.repl.REPLView.connect(REPLView.java:625)
+	at ccw.console.nrepl_hyperlink$match_found$open_repl_view__7619.invoke(nrepl_hyperlink.clj:37)
+	at ccw.console.nrepl_hyperlink$match_found$reify__7622.linkActivated(nrepl_hyperlink.clj:39)
+	at org.eclipse.ui.console.TextConsoleViewer$2.handleEvent(TextConsoleViewer.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY ccw.core 1 0 2017-10-11 21:42:08.354
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-11 21:42:08.375
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (2) #3
+
+!ENTRY ccw.core 1 0 2017-10-11 21:42:14.489
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-11 21:42:14.511
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (3) #4
+
+!ENTRY ccw.core 1 0 2017-10-11 21:44:36.501
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key Script
+
+!ENTRY ccw.core 1 0 2017-10-11 21:44:58.491
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key Compile
+
+!ENTRY ccw.core 1 0 2017-10-11 21:46:08.808
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-11 21:46:08.833
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (4) #5
+
+!ENTRY ccw.core 1 0 2017-10-11 21:46:08.880
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -Dccw.repl.launchid=36cf457a-105d-459b-b7cf-a3e095313dd4 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- update-in :injections conj "(try (load \"/clojure1/core\") (catch Exception e (.printStackTrace e)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-11 21:46:08.882
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (4) #5
+
+!ENTRY ccw.core 1 0 2017-10-11 21:46:53.349
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (4) #5 for getting the promise to set the port to nrepl://127.0.0.1:51261
+
+!ENTRY ccw.core 1 0 2017-10-11 21:47:06.492
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-11 21:47:06.510
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (5) #6
+
+!ENTRY ccw.core 1 0 2017-10-11 21:47:06.552
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -Dccw.repl.launchid=1fac4910-ef5d-49bc-ab4b-d8c0e394d927 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-11 21:47:06.554
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (5) #6
+
+!ENTRY ccw.core 1 0 2017-10-11 21:47:56.095
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (5) #6 for getting the promise to set the port to nrepl://127.0.0.1:51279
+
+!ENTRY ccw.core 1 0 2017-10-11 21:48:35.694
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-11 21:48:35.726
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (6) #7
+
+!ENTRY ccw.core 1 0 2017-10-11 21:48:35.765
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -Dccw.repl.launchid=004e3a18-ff22-4e9e-8545-5c6cdfebe92d -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-11 21:48:35.766
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (6) #7
+
+!ENTRY ccw.core 1 0 2017-10-11 21:48:39.076
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM (6) #7
+
+!ENTRY ccw.core 1 0 2017-10-11 21:48:48.156
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM (4) #5
+
+!ENTRY ccw.core 1 0 2017-10-11 21:48:50.501
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM (5) #6
+
+!ENTRY ccw.core 4 0 2017-10-11 21:58:35.769
+!MESSAGE Waiting for new REPL process ack timed out
+
+!ENTRY ccw.core 4 0 2017-10-11 21:58:35.781
+!MESSAGE Waiting for new REPL process ack timed out
+
+!ENTRY ccw.core 1 0 2017-10-12 19:42:51.746
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-12 19:42:51.892
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (7) #8
+
+!ENTRY ccw.core 1 0 2017-10-12 19:42:52.298
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -Dccw.repl.launchid=bb6bf41b-1686-4c5c-b1d2-b9c99854ffe8 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-12 19:42:52.310
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (7) #8
+
+!ENTRY ccw.core 1 0 2017-10-12 19:43:55.667
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (7) #8 for getting the promise to set the port to nrepl://127.0.0.1:62176
+
+!ENTRY ccw.core 1 0 2017-10-12 19:48:08.670
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-12 19:48:08.686
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (8) #9
+
+!ENTRY ccw.core 1 0 2017-10-12 19:48:10.934
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62654 -Dccw.repl.launchid=d5213f05-5469-4e1f-96b1-fc84c67316e1 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-12 19:48:10.936
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (8) #9
+
+!ENTRY ccw.core 1 0 2017-10-12 19:49:25.278
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (8) #9 for getting the promise to set the port to nrepl://127.0.0.1:62801
+
+!ENTRY ccw.core 1 0 2017-10-12 19:50:15.831
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM (7) #8
+
+!ENTRY ccw.core 1 0 2017-10-12 19:50:18.276
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM (8) #9
+
+!ENTRY ccw.core 1 0 2017-10-12 19:51:48.843
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-341
+
+!ENTRY ccw.core 1 0 2017-10-12 20:00:34.571
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-342
+
+!ENTRY ccw.core 1 0 2017-10-12 20:02:12.932
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-343
+
+!ENTRY ccw.core 1 0 2017-10-12 20:02:44.864
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-344
+
+!ENTRY ccw.core 1 0 2017-10-12 20:03:32.789
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-345
+
+!ENTRY ccw.core 1 0 2017-10-12 20:04:32.489
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-346
+
+!ENTRY ccw.core 1 0 2017-10-12 20:05:34.925
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-347
+
+!ENTRY ccw.core 1 0 2017-10-12 20:06:52.179
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-348
+
+!ENTRY ccw.core 1 0 2017-10-12 20:07:27.109
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key tun (clojure1)-349
+
+!ENTRY ccw.core 1 0 2017-10-12 20:07:54.024
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-350
+
+!ENTRY ccw.core 1 0 2017-10-12 20:08:42.269
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-351
+
+!ENTRY ccw.core 1 0 2017-10-12 20:09:45.055
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-352
+
+!ENTRY ccw.core 1 0 2017-10-12 20:10:18.664
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-353
+
+!ENTRY ccw.core 1 0 2017-10-12 20:13:25.750
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-354
+
+!ENTRY ccw.core 1 0 2017-10-12 20:17:04.904
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-12 20:17:04.923
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (9) #10
+
+!ENTRY ccw.core 1 0 2017-10-12 20:17:05.273
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:50156 -Dccw.repl.launchid=43e59f51-324a-4efd-9539-c8587e2e1b47 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-12 20:17:05.281
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (9) #10
+
+!ENTRY ccw.core 1 0 2017-10-12 20:18:03.227
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (9) #10 for getting the promise to set the port to nrepl://127.0.0.1:50307
+
+!ENTRY ccw.core 1 0 2017-10-12 20:18:35.458
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-356
+
+!ENTRY ccw.core 1 0 2017-10-12 20:33:03.027
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM (9) #10
+
+!ENTRY ccw.core 1 0 2017-10-12 20:33:50.012
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-10-12 20:33:50.029
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (10) #11
+
+!ENTRY ccw.core 1 0 2017-10-12 20:33:50.597
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:52609 -Dccw.repl.launchid=b3808bd5-b125-4d87-b278-40bced651865 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-10-12 20:33:50.598
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (10) #11
+
+!ENTRY ccw.core 1 0 2017-10-12 20:34:59.445
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure1 Leiningen VM (10) #11 for getting the promise to set the port to nrepl://127.0.0.1:52746
+
+!ENTRY ccw.core 1 0 2017-10-12 21:52:29.804
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key main
+
+!ENTRY org.eclipse.ui 4 0 2017-10-12 22:17:30.078
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:301)
+	at ccw.eclipse$package_root_relative.invoke(eclipse.clj:467)
+	at ccw.eclipse$java_resource_paths.invoke(eclipse.clj:483)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks$fn__161.invoke(script.clj:16)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at clojure.core$mapcat.doInvoke(core.clj:2660)
+	at clojure.lang.RestFn.invoke(RestFn.java:423)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks.invoke(script.clj:16)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at ccw.api.hyperlink$factory$fn__6918.invoke(hyperlink.clj:59)
+	at ccw.api.hyperlink.proxy$ccw.editors.clojure.AbstractHyperlinkDetector$ff19274a.detectHyperlinks(Unknown Source)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:454)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2017-10-12 22:17:30.404
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:301)
+	at ccw.eclipse$package_root_relative.invoke(eclipse.clj:467)
+	at ccw.eclipse$java_resource_paths.invoke(eclipse.clj:483)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks$fn__161.invoke(script.clj:16)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at clojure.core$mapcat.doInvoke(core.clj:2660)
+	at clojure.lang.RestFn.invoke(RestFn.java:423)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks.invoke(script.clj:16)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at ccw.api.hyperlink$factory$fn__6918.invoke(hyperlink.clj:59)
+	at ccw.api.hyperlink.proxy$ccw.editors.clojure.AbstractHyperlinkDetector$ff19274a.detectHyperlinks(Unknown Source)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:454)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2017-10-12 22:17:30.933
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:301)
+	at ccw.eclipse$package_root_relative.invoke(eclipse.clj:467)
+	at ccw.eclipse$java_resource_paths.invoke(eclipse.clj:483)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks$fn__161.invoke(script.clj:16)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at clojure.core$mapcat.doInvoke(core.clj:2660)
+	at clojure.lang.RestFn.invoke(RestFn.java:423)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks.invoke(script.clj:16)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at ccw.api.hyperlink$factory$fn__6918.invoke(hyperlink.clj:59)
+	at ccw.api.hyperlink.proxy$ccw.editors.clojure.AbstractHyperlinkDetector$ff19274a.detectHyperlinks(Unknown Source)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:454)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2017-10-12 22:17:30.949
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:301)
+	at ccw.eclipse$package_root_relative.invoke(eclipse.clj:467)
+	at ccw.eclipse$java_resource_paths.invoke(eclipse.clj:483)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks$fn__161.invoke(script.clj:16)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at clojure.core$mapcat.doInvoke(core.clj:2660)
+	at clojure.lang.RestFn.invoke(RestFn.java:423)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks.invoke(script.clj:16)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at ccw.api.hyperlink$factory$fn__6918.invoke(hyperlink.clj:59)
+	at ccw.api.hyperlink.proxy$ccw.editors.clojure.AbstractHyperlinkDetector$ff19274a.detectHyperlinks(Unknown Source)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:454)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2017-10-12 22:17:30.957
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:301)
+	at ccw.eclipse$package_root_relative.invoke(eclipse.clj:467)
+	at ccw.eclipse$java_resource_paths.invoke(eclipse.clj:483)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks$fn__161.invoke(script.clj:16)
+	at clojure.core$map$fn__4553.invoke(core.clj:2622)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$apply.invoke(core.clj:630)
+	at clojure.core$mapcat.doInvoke(core.clj:2660)
+	at clojure.lang.RestFn.invoke(RestFn.java:423)
+	at ccw_plugin_test_hyperlinks$detect_hyperlinks.invoke(script.clj:16)
+	at clojure.lang.Var.invoke(Var.java:383)
+	at ccw.api.hyperlink$factory$fn__6918.invoke(hyperlink.clj:59)
+	at ccw.api.hyperlink.proxy$ccw.editors.clojure.AbstractHyperlinkDetector$ff19274a.detectHyperlinks(Unknown Source)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:286)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:454)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2017-10-12 22:29:38.895
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-10-12 22:29:38.903
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2017-10-12 22:29:38.911
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY ccw.core 1 0 2017-10-12 22:34:15.170
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-358
+
+!ENTRY ccw.core 1 0 2017-10-12 22:34:35.324
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-359
+
+!ENTRY ccw.core 1 0 2017-10-12 22:35:14.736
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-360
+
+!ENTRY ccw.core 1 0 2017-10-12 22:35:16.640
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure1 Leiningen VM (10) #11
+
+!ENTRY ccw.core 1 0 2017-10-12 22:36:05.689
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-361
+
+!ENTRY ccw.core 1 0 2017-10-12 22:38:11.709
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-362
+
+!ENTRY ccw.core 1 0 2017-10-12 22:38:58.920
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-363
+
+!ENTRY ccw.core 1 0 2017-10-12 22:39:50.441
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-364
+
+!ENTRY ccw.core 1 0 2017-10-12 22:40:21.283
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-365
+
+!ENTRY ccw.core 1 0 2017-10-12 22:41:52.500
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-366
+
+!ENTRY ccw.core 1 0 2017-10-12 22:43:37.624
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-367
+
+!ENTRY ccw.core 1 0 2017-10-12 22:44:12.848
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-368
+
+!ENTRY ccw.core 1 0 2017-10-12 22:45:18.504
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-369
+
+!ENTRY ccw.core 1 0 2017-10-12 22:46:20.033
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-370
+
+!ENTRY ccw.core 1 0 2017-10-12 22:47:18.752
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-371
+
+!ENTRY ccw.core 1 0 2017-10-12 22:49:52.208
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-372
+
+!ENTRY ccw.core 1 0 2017-10-12 22:50:50.647
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-373
+
+!ENTRY ccw.core 1 0 2017-10-12 22:52:02.818
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-374
+
+!ENTRY ccw.core 1 0 2017-10-12 22:54:35.871
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-375
+
+!ENTRY ccw.core 1 0 2017-10-12 22:55:24.693
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-376
+
+!ENTRY ccw.core 1 0 2017-10-12 22:56:07.978
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-377
+
+!ENTRY ccw.core 1 0 2017-10-12 22:56:48.389
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key run (clojure1)-378
+
+!ENTRY ccw.core 1 0 2017-10-12 22:57:11.970
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key test (clojure1)-379

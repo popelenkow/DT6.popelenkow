@@ -1,0 +1,2 @@
+cmdhistory=["(foo)" "(printf \\"f\\")" "lein test" "lein run" "(print \\"g\\")" "(foo)" "(multiply [\\"a\\" \\"b\\" \\"c\\"] [\\"a\\" \\"b\\" \\"c\\"])" "(foo 1)" "(foo 1 [\\"a\\" \\"b\\" \\"c\\"])" "(foo 2 [\\"a\\" \\"b\\" \\"c\\"])" "(foo 2 [\\"a\\"])" "(superMultiply 4 [\\"a\\" \\"b\\" \\"c\\"])"]
+eclipse.preferences.version=1
