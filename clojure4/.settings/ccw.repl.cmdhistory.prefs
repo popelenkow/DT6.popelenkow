@@ -1,0 +1,2 @@
+cmdhistory=["(negation \:x)" "(negation (negation x))" "(negation (negation \:x))" "(negation (negation (variable \:x)))" "(negation? (negation (negation (variable \:x))))" "(println (negation (negation (variable \:x))))" "(defn negatio [expr]\\r\\n  (list \:\:negati expr))" "(negatio \:x)" "(negation \:x)"]
+eclipse.preferences.version=1

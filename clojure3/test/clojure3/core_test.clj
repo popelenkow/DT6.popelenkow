@@ -1,6 +1,6 @@
-(ns clojure2.core-test
+(ns clojure3.core-test
   (:require [clojure.test :refer :all]
-            [clojure2.core :refer :all]))
+            [clojure3.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
@@ -31,5 +31,3 @@
           (-
             (* 0.001 0.001 1/2)
             ((IntegrateFun (fn [x] x)) 0.001)))))))
-
-

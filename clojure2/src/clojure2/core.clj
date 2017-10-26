@@ -2,43 +2,52 @@
 
 (def Step (double 1/1000))
 
-(defn- GetCountStepCos
+
+(defn- GetCountStep
   [x]
   (double (int 
             (/
               (double x)
               Step))))
 
+(defn- IFun
+  [fun]
+  (fn [i]
+	  (*
+	    Step
+	    (double 1/2)
+	    (+
+	      (fun (* Step i))
+	      (fun (* Step (dec i)))))))
 
-(defn- ICos
-  [i]
-  (*
-    Step
-    (double 1/2)
-    (+
-      (Math/cos (* Step i))
-      (Math/cos (* Step (dec i))))))
-
-(defn- _IntegrateCos
-  [count]
+(defn- ISum
+  [ifun, count]
   (loop [i count
          acc (double 0)]
     (if (pos? i)
-      (recur (dec i) (+ acc (ICos i)))
+      (recur (dec i) (+ acc (ifun i)))
       acc)))
-
-(def _IntegrateCos-memo
-  (memoize _IntegrateCos))
   
-(defn IntegrateCos
-  [x]
-  (_IntegrateCos (GetCountStepCos x)))
+(defn IntegrateFun
+  [fun]
+  (fn [x]
+    (let [count (GetCountStep x)
+          ifun (IFun fun)]
+      (ISum ifun count))))
 
-(defn IntegrateCos-memo
-  [x]
-  (let [i (GetCountStepCos x)]
-    (_IntegrateCos-memo i)))
+
+
+(def IFun-memo
+  (memoize IFun))
+
+
+(defn IntegrateFun-memo
+  [fun]
+  (fn [x]
+    (let [count (GetCountStep x)
+          ifun (IFun-memo fun)]
+      (ISum ifun count))))
 
 (defn -main [& args]
   (println
-    (IntegrateCos 1)))
+    ((IntegrateFun (fn [x] x)) 1)))
