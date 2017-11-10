@@ -5431,3 +5431,545 @@ java.lang.NullPointerException
 	at ccw.repl.cmdhistory$fn__7740$fn__7741.invoke(cmdhistory.clj:117)
 	at ccw.repl.cmdhistory.proxy$org.eclipse.core.runtime.jobs.Job$ff19274a.run(Unknown Source)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2017-11-04 15:52:11.675 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ccw.core 1 0 2017-11-04 15:52:53.641
+!MESSAGE CCWPlugin.start(): ENTER
+
+!ENTRY ccw.core 1 0 2017-11-04 15:52:59.377
+!MESSAGE Counterclockwise dependencies:
+        [bultitude "0.2.1"]
+        [ccw/ccw.server "0.2.1"]
+        [ccw/clojure-ccw "1.7.0"]
+        [cheshire "5.0.2"]
+        [classlojure "0.6.6"]
+        [clj-http "0.9.2"]
+        [clj-stacktrace "0.2.7"]
+        [clj-tuple "0.1.2"]
+        [clojure-complete "0.2.3"]
+        [com.cemerick/drawbridge "0.0.6"]
+        [com.cemerick/pomegranate "0.3.0"]
+        [com.fasterxml.jackson.core/jackson-core "2.1.3"]
+        [com.fasterxml.jackson.dataformat/jackson-dataformat-smile "2.1.2"]
+        [com.hypirion/io "0.3.1"]
+        [commons-codec "1.9"]
+        [commons-fileupload "1.2.1"]
+        [commons-io "2.4"]
+        [commons-lang "2.6"]
+        [commons-logging "1.1.3"]
+        [dynapath "0.2.0"]
+        [jline "2.12"]
+        [leiningen "2.5.1"]
+        [leiningen-core "2.5.1"]
+        [net.cgrand/parsley "0.9.2"]
+        [net.cgrand/regex "1.1.0"]
+        [net.cgrand/sjacket "0.1.1"]
+        [net.mikera/cljunit "0.2.0"]
+        [org.apache.httpcomponents/httpclient "4.3.3"]
+        [org.apache.httpcomponents/httpcore "4.3.2"]
+        [org.apache.httpcomponents/httpmime "4.3.3"]
+        [org.apache.maven/maven-aether-provider "3.0.4"]
+        [org.apache.maven/maven-model "3.0.4"]
+        [org.apache.maven/maven-model-builder "3.0.4"]
+        [org.apache.maven/maven-repository-metadata "3.0.4"]
+        [org.apache.maven.indexer/indexer-artifact "4.1.3"]
+        [org.apache.maven.indexer/indexer-core "4.1.3"]
+        [org.apache.maven.wagon/wagon-http "2.7"]
+        [org.apache.maven.wagon/wagon-http-shared "2.7"]
+        [org.apache.maven.wagon/wagon-provider-api "2.2"]
+        [org.clojure/clojure-contrib "1.2.0"]
+        [org.clojure/core.incubator "0.1.0"]
+        [org.clojure/data.xml "0.0.3"]
+        [org.clojure/java.classpath "0.2.2"]
+        [org.clojure/java.data "0.1.1"]
+        [org.clojure/tools.cli "0.3.1"]
+        [org.clojure/tools.logging "0.2.3"]
+        [org.clojure/tools.macro "0.1.1"]
+        [org.clojure/tools.nrepl "0.2.10"]
+        [org.clojure/tools.reader "0.8.4"]
+        [org.codehaus.plexus/plexus-classworlds "2.4"]
+        [org.codehaus.plexus/plexus-component-annotations "1.5.5"]
+        [org.codehaus.plexus/plexus-interpolation "1.14"]
+        [org.codehaus.plexus/plexus-utils "2.0.6"]
+        [org.jsoup/jsoup "1.7.2"]
+        [org.sonatype.aether/aether-api "1.13.1"]
+        [org.sonatype.aether/aether-connector-file "1.13.1"]
+        [org.sonatype.aether/aether-connector-wagon "1.13.1"]
+        [org.sonatype.aether/aether-impl "1.13.1"]
+        [org.sonatype.aether/aether-spi "1.13.1"]
+        [org.sonatype.aether/aether-util "1.13.1"]
+        [org.sonatype.sisu/sisu-inject-bean "2.2.3"]
+        [org.sonatype.sisu/sisu-inject-plexus "2.2.3"]
+        [org.tcrawley/dynapath "0.2.3"]
+        [pedantic "0.2.0"]
+        [potemkin "0.3.4"]
+        [prismatic/schema "0.4.4"]
+        [quoin "0.1.2"]
+        [reply "0.3.5"]
+        [riddley "0.1.6"]
+        [ring/ring-core "1.0.2"]
+        [robert/hooke "1.3.0"]
+        [scout "0.1.0"]
+        [slingshot "0.10.3"]
+        [stencil "0.3.5"]
+        [trptcolin/versioneer "0.1.1"]
+
+!ENTRY ccw.core 1 0 2017-11-04 15:53:58.566
+!MESSAGE CCWPlugin.start(): EXIT
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-04 15:55:12.202
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\VladlenMacro'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:25.791
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl\ansi-repl.clj
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:25.794
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-ansi-repl
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:26.095
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world\hello-world.clj
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:26.098
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hello-world
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:27.032
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink\script.clj
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:27.034
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-hyperlink
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:27.677
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager\ccw-plugin-manager.clj
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:27.679
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-manager
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:27.918
+!MESSAGE Loaded User Script C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom\ccw-plugin-zoom.clj
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:27.922
+!MESSAGE Loaded User Plugin: C:\Users\VladlenMacro\eclipse\java-oxygen\eclipse\..\..\..\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\ccw-plugins\ccw-plugin-zoom
+
+!ENTRY ccw.core 1 0 2017-11-04 15:55:27.923
+!MESSAGE Loaded User Plugins
+
+!ENTRY ccw.core 1 0 2017-11-04 16:07:44.239
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 16:07:44.317
+!MESSAGE Started ccw nREPL server: nrepl://127.0.0.1:57752
+
+!ENTRY ccw.core 1 0 2017-11-04 16:07:44.505
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure2 Leiningen VM (25) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 16:07:47.352
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:57753 -Dccw.repl.launchid=55a5f857-762f-42f5-bd58-c1fe72ac7ac1 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 16:07:47.853
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure2 Leiningen VM (25) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 16:09:01.237
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure2 Leiningen VM (25) #1 for getting the promise to set the port to nrepl://127.0.0.1:57762
+
+!ENTRY ccw.core 1 0 2017-11-04 16:40:29.139
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure2 Leiningen VM (25) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 16:40:32.142
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 16:40:32.182
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (17) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 16:40:32.942
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:58123 -Dccw.repl.launchid=e9e04a21-c226-4d58-819a-b4470f1c895a -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 16:40:32.943
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (17) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 16:41:32.188
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (17) #1 for getting the promise to set the port to nrepl://127.0.0.1:58131
+
+!ENTRY ccw.core 1 0 2017-11-04 16:42:09.166
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure3 Leiningen VM (17) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 16:42:13.261
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 16:42:13.285
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (18) #2
+
+!ENTRY ccw.core 1 0 2017-11-04 16:42:13.835
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:58135 -Dccw.repl.launchid=b4714be8-d4fb-4bbe-86a3-845bc8b6c083 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 16:42:13.837
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (18) #2
+
+!ENTRY ccw.core 1 0 2017-11-04 16:43:12.964
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (18) #2 for getting the promise to set the port to nrepl://127.0.0.1:58141
+
+!ENTRY ccw.core 1 0 2017-11-04 16:45:20.619
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure3 Leiningen VM (18) #2
+
+!ENTRY ccw.core 1 0 2017-11-04 16:45:24.835
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 16:45:24.858
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (19) #3
+
+!ENTRY ccw.core 1 0 2017-11-04 16:45:25.454
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:58159 -Dccw.repl.launchid=e8721cd5-44fa-44cc-89bd-240a505a5090 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 16:45:25.455
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (19) #3
+
+!ENTRY ccw.core 1 0 2017-11-04 16:46:39.871
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure3 Leiningen VM (19) #3 for getting the promise to set the port to nrepl://127.0.0.1:58178
+
+!ENTRY ccw.core 1 0 2017-11-04 21:24:00.914
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure3 Leiningen VM (19) #3
+
+!ENTRY ccw.core 1 0 2017-11-04 21:24:06.182
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 21:24:06.296
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (2) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 21:24:08.557
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:60672 -Dccw.repl.launchid=9beaef72-8cce-4321-8851-353d6e885906 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 21:24:08.559
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (2) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 21:25:17.410
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (2) #1 for getting the promise to set the port to nrepl://127.0.0.1:60683
+
+!ENTRY ccw.core 1 0 2017-11-04 21:26:33.679
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (2) #1
+
+!ENTRY ccw.core 1 0 2017-11-04 21:26:53.190
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 21:26:53.207
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (3) #2
+
+!ENTRY ccw.core 1 0 2017-11-04 21:26:53.762
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:60717 -Dccw.repl.launchid=f4a04d03-5c48-4408-ac20-0e58a0f4891e -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 21:26:53.764
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (3) #2
+
+!ENTRY ccw.core 1 0 2017-11-04 21:27:56.836
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (3) #2 for getting the promise to set the port to nrepl://127.0.0.1:60738
+
+!ENTRY ccw.core 1 0 2017-11-04 21:29:40.458
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (3) #2
+
+!ENTRY ccw.core 1 0 2017-11-04 21:29:43.529
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 21:29:43.552
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (4) #3
+
+!ENTRY ccw.core 1 0 2017-11-04 21:29:44.136
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:60775 -Dccw.repl.launchid=889d0e66-95b4-498f-a016-07d8036f9d84 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 21:29:44.138
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (4) #3
+
+!ENTRY ccw.core 1 0 2017-11-04 21:30:41.729
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (4) #3 for getting the promise to set the port to nrepl://127.0.0.1:60785
+
+!ENTRY ccw.core 1 0 2017-11-04 21:31:08.254
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (4) #3
+
+!ENTRY ccw.core 1 0 2017-11-04 21:31:14.556
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 21:31:14.575
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (5) #4
+
+!ENTRY ccw.core 1 0 2017-11-04 21:31:15.161
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:60808 -Dccw.repl.launchid=2eeab84a-3896-4c16-a9cc-21194d817dbb -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 21:31:15.163
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (5) #4
+
+!ENTRY ccw.core 1 0 2017-11-04 21:32:18.976
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (5) #4 for getting the promise to set the port to nrepl://127.0.0.1:60827
+
+!ENTRY ccw.core 1 0 2017-11-04 21:32:43.357
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (5) #4
+
+!ENTRY ccw.core 1 0 2017-11-04 21:32:45.657
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-04 21:32:45.671
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (6) #5
+
+!ENTRY ccw.core 1 0 2017-11-04 21:32:46.147
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:60831 -Dccw.repl.launchid=6ad3bb0c-010e-427a-9c62-8c483729cabf -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-04 21:32:46.149
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (6) #5
+
+!ENTRY ccw.core 1 0 2017-11-04 21:33:46.885
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (6) #5 for getting the promise to set the port to nrepl://127.0.0.1:60842
+
+!ENTRY ccw.core 1 0 2017-11-05 03:23:47.839
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (6) #5
+
+!ENTRY ccw.core 1 0 2017-11-05 03:23:50.557
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 03:23:50.587
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (7) #6
+
+!ENTRY ccw.core 1 0 2017-11-05 03:23:51.846
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62363 -Dccw.repl.launchid=2be31c55-8004-4aaf-9ae5-c32ca9ac0b99 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 03:23:51.847
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (7) #6
+
+!ENTRY ccw.core 1 0 2017-11-05 03:25:21.439
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (7) #6 for getting the promise to set the port to nrepl://127.0.0.1:62382
+
+!ENTRY ccw.core 1 0 2017-11-05 03:27:03.264
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (7) #6
+
+!ENTRY ccw.core 1 0 2017-11-05 03:27:05.575
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 03:27:05.592
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (8) #7
+
+!ENTRY ccw.core 1 0 2017-11-05 03:27:06.156
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62388 -Dccw.repl.launchid=7339c62a-e140-42a5-912d-7b1168800294 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 03:27:06.158
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (8) #7
+
+!ENTRY ccw.core 1 0 2017-11-05 03:28:28.045
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (8) #7 for getting the promise to set the port to nrepl://127.0.0.1:62399
+
+!ENTRY ccw.core 1 0 2017-11-05 03:29:09.069
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (8) #7
+
+!ENTRY ccw.core 1 0 2017-11-05 03:29:11.565
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 03:29:11.584
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (9) #8
+
+!ENTRY ccw.core 1 0 2017-11-05 03:29:12.046
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62404 -Dccw.repl.launchid=65650f51-5d22-4d89-a95e-fc4759d419a8 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 03:29:12.048
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (9) #8
+
+!ENTRY ccw.core 1 0 2017-11-05 03:30:27.129
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (9) #8 for getting the promise to set the port to nrepl://127.0.0.1:62411
+
+!ENTRY ccw.core 1 0 2017-11-05 03:31:04.368
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (9) #8
+
+!ENTRY ccw.core 1 0 2017-11-05 03:31:34.597
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 03:31:34.615
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (10) #9
+
+!ENTRY ccw.core 1 0 2017-11-05 03:31:35.077
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62420 -Dccw.repl.launchid=a1db7163-3246-45b4-ae2c-7bd688cd977a -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 03:31:35.079
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (10) #9
+
+!ENTRY ccw.core 1 0 2017-11-05 03:32:53.037
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (10) #9 for getting the promise to set the port to nrepl://127.0.0.1:62428
+
+!ENTRY ccw.core 1 0 2017-11-05 03:33:23.297
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (10) #9
+
+!ENTRY ccw.core 1 0 2017-11-05 03:33:25.580
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 03:33:25.595
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (11) #10
+
+!ENTRY ccw.core 1 0 2017-11-05 03:33:26.172
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62438 -Dccw.repl.launchid=f8393bb0-6e47-416c-b0fd-07fd07d3bfa5 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 03:33:26.173
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (11) #10
+
+!ENTRY ccw.core 1 0 2017-11-05 03:34:44.259
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (11) #10 for getting the promise to set the port to nrepl://127.0.0.1:62445
+
+!ENTRY ccw.core 1 0 2017-11-05 03:35:15.829
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (11) #10
+
+!ENTRY ccw.core 1 0 2017-11-05 03:35:18.068
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 03:35:18.087
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (12) #11
+
+!ENTRY ccw.core 1 0 2017-11-05 03:35:18.665
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62449 -Dccw.repl.launchid=82dc30bb-0c83-4f65-a7b5-259a51ba9a32 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 03:35:18.666
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (12) #11
+
+!ENTRY ccw.core 1 0 2017-11-05 03:36:39.846
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (12) #11 for getting the promise to set the port to nrepl://127.0.0.1:62461
+
+!ENTRY ccw.core 1 0 2017-11-05 03:37:57.397
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (12) #11
+
+!ENTRY ccw.core 1 0 2017-11-05 03:37:59.991
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 03:38:00.010
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (13) #12
+
+!ENTRY ccw.core 1 0 2017-11-05 03:38:00.518
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62467 -Dccw.repl.launchid=6c83d2d8-ab57-4cd5-a3c4-c2a04fddff5a -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 03:38:00.519
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (13) #12
+
+!ENTRY ccw.core 1 0 2017-11-05 03:39:17.508
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (13) #12 for getting the promise to set the port to nrepl://127.0.0.1:62474
+
+!ENTRY ccw.core 1 0 2017-11-05 04:16:19.785
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (13) #12
+
+!ENTRY ccw.core 1 0 2017-11-05 04:16:22.403
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 04:16:22.423
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (14) #13
+
+!ENTRY ccw.core 1 0 2017-11-05 04:16:22.881
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:62614 -Dccw.repl.launchid=2b5ac109-1c15-48ab-a567-4aa1846e2158 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 04:16:22.882
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (14) #13
+
+!ENTRY ccw.core 1 0 2017-11-05 04:17:52.540
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (14) #13 for getting the promise to set the port to nrepl://127.0.0.1:62708
+
+!ENTRY ccw.core 1 0 2017-11-05 11:48:35.114
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (14) #13
+
+!ENTRY ccw.core 1 0 2017-11-05 11:48:38.593
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 11:48:38.657
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (15) #14
+
+!ENTRY ccw.core 1 0 2017-11-05 11:48:40.263
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:63859 -Dccw.repl.launchid=548281a5-b179-4bc2-b9d7-adf94585c68a -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 11:48:40.265
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (15) #14
+
+!ENTRY ccw.core 1 0 2017-11-05 11:50:02.543
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (15) #14 for getting the promise to set the port to nrepl://127.0.0.1:63876
+
+!ENTRY ccw.core 1 0 2017-11-05 12:41:21.926
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (15) #14
+
+!ENTRY ccw.core 1 0 2017-11-05 12:41:25.762
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 12:41:25.778
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (16) #15
+
+!ENTRY ccw.core 1 0 2017-11-05 12:41:27.660
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:64040 -Dccw.repl.launchid=c6df31c8-b160-4de5-8e97-897bc43c7b89 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 12:41:27.663
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (16) #15
+
+!ENTRY ccw.core 1 0 2017-11-05 12:42:23.706
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (16) #15 for getting the promise to set the port to nrepl://127.0.0.1:64050
+
+!ENTRY ccw.core 1 0 2017-11-05 12:42:56.344
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (16) #15
+
+!ENTRY ccw.core 1 0 2017-11-05 12:43:15.953
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 12:43:15.969
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (17) #16
+
+!ENTRY ccw.core 1 0 2017-11-05 12:43:16.336
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:64058 -Dccw.repl.launchid=68591d05-7fea-4b8e-85c3-44787dd0d57b -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 12:43:16.338
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (17) #16
+
+!ENTRY ccw.core 1 0 2017-11-05 12:44:10.802
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (17) #16 for getting the promise to set the port to nrepl://127.0.0.1:64068
+
+!ENTRY ccw.core 1 0 2017-11-05 12:46:29.417
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (17) #16
+
+!ENTRY ccw.core 1 0 2017-11-05 12:46:31.700
+!MESSAGE nRepl port will be automatically selected
+
+!ENTRY ccw.core 1 0 2017-11-05 12:46:31.716
+!MESSAGE putting in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (18) #17
+
+!ENTRY ccw.core 1 0 2017-11-05 12:46:32.160
+!MESSAGE Launched process with command line: "C:\Program Files\Java\jre1.8.0_144\bin\javaw.exe" -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:64088 -Dccw.repl.launchid=c271d733-2075-444a-8362-593df7636b37 -client -Xbootclasspath/a:C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Dmaven.wagon.http.ssl.easy=false -classpath C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\leiningen-standalone.jar;C:\Users\VladlenMacro\.p2\pool\plugins\ccw.core_0.35.1.STABLE001\lein clojure.main -m ccw.leiningen.main update-in :jvm-opts concat "[\"-Xdebug\" \"-Xrunjdwp:transport=dt_socket,server=y,suspend=n\"]" -- update-in : dissoc :main -- update-in :dependencies conj "[ccw/ccw.server \"0.2.1\"]" -- update-in :injections conj "(require 'ccw.debug.serverrepl)" -- update-in :plugins conj "[cider/cider-nrepl \"0.9.0\"]" -- update-in :dependencies conj "[org.clojure/tools.nrepl \"0.2.10\"]" -- update-in :injections conj "(alter-var-root #'clojure.core/print-object (fn [old-print-object] (fn [o, ^java.io.Writer w] (when (instance? clojure.lang.IMeta o)      (#'clojure.core/print-meta o w))         (.write w \"#<\")         (let [name (.getSimpleName (class o))]           (when (seq name)             (.write w name)             (.write w \" \")))         (.write w (str o))         (.write w \">\"))))" -- update-in :injections conj "(do (require 'clojure.pprint) (@(find-var 'clojure.pprint/use-method) @(find-var 'clojure.pprint/simple-dispatch) clojure.lang.Var @(find-var 'clojure.pprint/pprint-simple-default)))" -- repl :headless
+
+!ENTRY ccw.core 1 0 2017-11-05 12:46:32.161
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (18) #17
+
+!ENTRY ccw.core 1 0 2017-11-05 12:47:48.313
+!MESSAGE reading in launchNameREPLURLPromiseAndWithREPLView the key: clojure4 Leiningen VM (18) #17 for getting the promise to set the port to nrepl://127.0.0.1:64100
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-11-05 18:17:33.958
+!MESSAGE Unable to find any indexer
+
+!ENTRY org.eclipse.dltk.core 4 0 2017-11-05 18:17:38.958
+!MESSAGE Failed to append type name to field
+!STACK 1
+org.eclipse.dltk.core.ModelException: method [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:276)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:211)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:186)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:168)
+	at org.eclipse.dltk.internal.core.SourceField.getType(SourceField.java:65)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getFieldLabel(ScriptElementLabels.java:818)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:570)
+	at org.eclipse.dltk.ruby.internal.ui.RubyUILanguageToolkit$1.getElementLabel(RubyUILanguageToolkit.java:37)
+	at org.eclipse.dltk.ui.ScriptElementLabels.getElementLabel(ScriptElementLabels.java:526)
+	at org.eclipse.dltk.ui.ScriptElementLabels$2.getElementLabel(ScriptElementLabels.java:386)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover$ScriptDocumentationTitleAdapter.getTitle(DocumentationHover.java:596)
+	at org.eclipse.dltk.internal.ui.text.hover.DocumentationHover.getHoverInfo(DocumentationHover.java:452)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:181)
+	at org.eclipse.dltk.internal.ui.text.hover.AbstractScriptEditorTextHover.getHoverInfo(AbstractScriptEditorTextHover.java:135)
+	at org.eclipse.dltk.internal.ui.text.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:109)
+	at org.eclipse.dltk.internal.ui.text.hover.EditorTextHoverProxy.getHoverInfo(EditorTextHoverProxy.java:67)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2017-11-05 18:17:39.021
+!MESSAGE method [in ParallelArray.rb [in <default> [in <project root> [in Ruby2]]]] does not exist
+
+!ENTRY ccw.core 1 0 2017-11-10 09:38:56.637
+!MESSAGE removed from launchNameREPLURLPromiseAndWithREPLView the key clojure4 Leiningen VM (18) #17
+
+!ENTRY ccw.core 1 0 2017-11-10 09:39:05.085
+!MESSAGE Stopping ccw nREPL server...
