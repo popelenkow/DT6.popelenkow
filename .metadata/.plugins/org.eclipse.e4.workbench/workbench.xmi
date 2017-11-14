@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_CK2DIKwREeeszocUQwf6oQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_CK2DIawREeeszocUQwf6oQ" bindingContexts="_CK9_YqwREeeszocUQwf6oQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.dltk.ruby.ui.editor.RubyEditor&quot; name=&quot;ParallelArray.rb&quot; tooltip=&quot;Ruby2/ParallelArray.rb&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Ruby2/ParallelArray.rb&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure1/src/clojure1/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure1/src/clojure1/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure4/src/clojure4/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure4/src/clojure4/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure3/src/clojure3/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure3/src/clojure3/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure2/src/clojure2/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure2/src/clojure2/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; tooltip=&quot;clojure4/project.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure4/project.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; tooltip=&quot;clojure3/project.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure3/project.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; tooltip=&quot;clojure2/project.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure2/project.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; tooltip=&quot;clojure3/test/clojure3/core_test.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure3/test/clojure3/core_test.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; tooltip=&quot;clojure2/test/clojure2/core_test.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure2/test/clojure2/core_test.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; tooltip=&quot;clojure1/project.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure1/project.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; tooltip=&quot;clojure1/test/clojure1/core_test.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure1/test/clojure1/core_test.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; tooltip=&quot;clojure1/bin/clojure1/core_test.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure1/bin/clojure1/core_test.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure1/bin/clojure1/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure1/bin/clojure1/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.dltk.ui.ExternalSourceModuleEditorInputFactory&quot; id=&quot;org.eclipse.dltk.ruby.ui.editor.RubyEditor&quot; name=&quot;Time.rb&quot; tooltip=&quot;(builtins) - Time.rb&quot;>&#xD;&#xA;&lt;persistable elementID=&quot;=Ruby1/#special#builtin#&amp;gt;Ruby24-x64&amp;gt;bin&amp;gt;ruby.exe&amp;lt;{Time.rb&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure4/src/clojure4/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure4/src/clojure4/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure3/src/clojure3/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure3/src/clojure3/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure2/src/clojure2/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure2/src/clojure2/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.dltk.ui.ExternalSourceModuleEditorInputFactory&quot; id=&quot;org.eclipse.dltk.ruby.ui.editor.RubyEditor&quot; name=&quot;Thread.rb&quot; tooltip=&quot;(builtins) - Thread.rb&quot;>&#xD;&#xA;&lt;persistable elementID=&quot;=Ruby1/#special#builtin#&amp;gt;Ruby24-x64&amp;gt;bin&amp;gt;ruby.exe&amp;lt;{Thread.rb&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.dltk.ruby.ui.editor.RubyEditor&quot; name=&quot;Main.rb&quot; tooltip=&quot;Ruby3/Main.rb&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Ruby3/Main.rb&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.dltk.ruby.ui.editor.RubyEditor&quot; name=&quot;Main.rb&quot; tooltip=&quot;Ruby1/Main.rb&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Ruby1/Main.rb&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.dltk.ruby.ui.editor.RubyEditor&quot; name=&quot;ParallelArray.rb&quot; tooltip=&quot;Ruby2/ParallelArray.rb&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Ruby2/ParallelArray.rb&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; tooltip=&quot;clojure1/src/clojure1/core.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure1/src/clojure1/core.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; tooltip=&quot;clojure4/project.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure4/project.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; tooltip=&quot;clojure3/project.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure3/project.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; tooltip=&quot;clojure2/project.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure2/project.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; tooltip=&quot;clojure3/test/clojure3/core_test.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure3/test/clojure3/core_test.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; tooltip=&quot;clojure2/test/clojure2/core_test.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure2/test/clojure2/core_test.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; tooltip=&quot;clojure1/project.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure1/project.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; tooltip=&quot;clojure1/test/clojure1/core_test.clj&quot;>&#xD;&#xA;&lt;persistable path=&quot;/clojure1/test/clojure1/core_test.clj&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_CK2DIawREeeszocUQwf6oQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_CK2qMKwREeeszocUQwf6oQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -166,7 +166,7 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_CK3RZawREeeszocUQwf6oQ" elementId="org.eclipse.dltk.ui.TypeHierarchy" toBeRendered="false" ref="_CK68FawREeeszocUQwf6oQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_CK3RZqwREeeszocUQwf6oQ" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_CK670KwREeeszocUQwf6oQ"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_CK3RZ6wREeeszocUQwf6oQ" containerData="8000" selectedElement="_CK3RbKwREeeszocUQwf6oQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_CK3RZ6wREeeszocUQwf6oQ" containerData="8000" selectedElement="_CK3RaKwREeeszocUQwf6oQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_CK3RaKwREeeszocUQwf6oQ" containerData="7624" selectedElement="_bOT8EK6MEeeaHZhNYcCvvA" horizontal="true">
                 <children xsi:type="basic:PartSashContainer" xmi:id="_bOT8EK6MEeeaHZhNYcCvvA" containerData="5000" selectedElement="_CK3RaawREeeszocUQwf6oQ" horizontal="true">
                   <children xsi:type="basic:PartStack" xmi:id="_bOT8Ea6MEeeaHZhNYcCvvA" elementId="PartStack@687dc7e6" containerData="2646" selectedElement="_CK3RY6wREeeszocUQwf6oQ">
@@ -178,14 +178,12 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_CK3Ra6wREeeszocUQwf6oQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_CK670qwREeeszocUQwf6oQ"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_CK3RbKwREeeszocUQwf6oQ" elementId="bottom" containerData="2376" selectedElement="_CK3RcKwREeeszocUQwf6oQ">
+              <children xsi:type="basic:PartStack" xmi:id="_CK3RbKwREeeszocUQwf6oQ" elementId="bottom" containerData="2376" selectedElement="_CK3RbawREeeszocUQwf6oQ">
                 <tags>Clojure</tags>
-                <tags>active</tags>
-                <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_CK3RbawREeeszocUQwf6oQ" elementId="org.eclipse.ui.views.ProblemView" ref="_CK67wawREeeszocUQwf6oQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_CK3RbqwREeeszocUQwf6oQ" elementId="org.eclipse.ui.views.TaskList" ref="_CK68GKwREeeszocUQwf6oQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_CK3Rb6wREeeszocUQwf6oQ" elementId="org.eclipse.dltk.ruby.ui.RubyDocumentationView" ref="_CK68GawREeeszocUQwf6oQ"/>
-                <children xsi:type="advanced:Placeholder" xmi:id="_CK3RcKwREeeszocUQwf6oQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_CK67x6wREeeszocUQwf6oQ"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_CK3RcKwREeeszocUQwf6oQ" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="_CK67x6wREeeszocUQwf6oQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_CK3RcawREeeszocUQwf6oQ" elementId="org.eclipse.dltk.callhierarchy.view" toBeRendered="false" ref="_CK68GqwREeeszocUQwf6oQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_CK3RcqwREeeszocUQwf6oQ" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_CK67xqwREeeszocUQwf6oQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_CK3Rc6wREeeszocUQwf6oQ" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_CK670awREeeszocUQwf6oQ"/>
@@ -233,86 +231,22 @@
       <toolbar xmi:id="_CK67rawREeeszocUQwf6oQ" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_CK67r6wREeeszocUQwf6oQ" elementId="org.eclipse.ui.editorss" selectedElement="_CK67sKwREeeszocUQwf6oQ">
-      <children xsi:type="basic:PartStack" xmi:id="_CK67sKwREeeszocUQwf6oQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_e5JnYMIaEeeX7ZjgaVdy9g">
+      <children xsi:type="basic:PartStack" xmi:id="_CK67sKwREeeszocUQwf6oQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_QFBwcMgoEeeVnphIeno_hQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_NQCnIK9MEeeKnuk8LU5WrA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure1.core" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; partName=&quot;clojure1.core&quot; title=&quot;clojure1.core&quot; tooltip=&quot;clojure1/bin/clojure1/core.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure1/bin/clojure1/core.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;339&quot; selectionOffset=&quot;22&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_0e8lQMgnEeeVnphIeno_hQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure3.core" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; partName=&quot;clojure3.core&quot; title=&quot;clojure3.core&quot; tooltip=&quot;clojure3/src/clojure3/core.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure3/src/clojure3/core.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;1130&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;315&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>ccw.clojureeditor</tags>
           <tags>removeOnHide</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_4AV5wK9MEeeKnuk8LU5WrA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="project.clj" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; partName=&quot;project.clj&quot; title=&quot;project.clj&quot; tooltip=&quot;clojure1/project.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure1/project.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;13&quot; selectionOffset=&quot;280&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_QFBwcMgoEeeVnphIeno_hQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure4.core" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; partName=&quot;clojure4.core&quot; title=&quot;clojure4.core&quot; tooltip=&quot;clojure4/src/clojure4/core.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure4/src/clojure4/core.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;291&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>ccw.clojureeditor</tags>
           <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_HTsGAK9jEeeKnuk8LU5WrA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure1.core" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; partName=&quot;clojure1.core&quot; title=&quot;clojure1.core&quot; tooltip=&quot;clojure1/src/clojure1/core.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure1/src/clojure1/core.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;448&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_Mn2uUK9jEeeKnuk8LU5WrA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure1.core-test" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; partName=&quot;clojure1.core-test&quot; title=&quot;clojure1.core-test&quot; tooltip=&quot;clojure1/test/clojure1/core_test.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure1/test/clojure1/core_test.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;299&quot; selectionTopPixel=&quot;12&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_b3hXMLTZEeeX0KJja164TA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure2.core" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; partName=&quot;clojure2.core&quot; title=&quot;clojure2.core&quot; tooltip=&quot;clojure2/src/clojure2/core.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure2/src/clojure2/core.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;37&quot; selectionOffset=&quot;794&quot; selectionTopPixel=&quot;181&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_qNjgQLTnEeeX0KJja164TA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="project.clj" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; partName=&quot;project.clj&quot; title=&quot;project.clj&quot; tooltip=&quot;clojure2/project.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure2/project.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;22&quot; selectionOffset=&quot;272&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_W2B60LT7EeeX0KJja164TA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure2.core-test" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; partName=&quot;clojure2.core-test&quot; title=&quot;clojure2.core-test&quot; tooltip=&quot;clojure2/test/clojure2/core_test.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure2/test/clojure2/core_test.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;634&quot; selectionOffset=&quot;109&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_JVwcALpGEeeciamP7xyOkQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure3.core" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; partName=&quot;clojure3.core&quot; title=&quot;clojure3.core&quot; tooltip=&quot;clojure3/src/clojure3/core.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure3/src/clojure3/core.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;9&quot; selectionOffset=&quot;617&quot; selectionTopPixel=&quot;270&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_Lu754LpGEeeciamP7xyOkQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure3.core-test" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core_test.clj&quot; partName=&quot;clojure3.core-test&quot; title=&quot;clojure3.core-test&quot; tooltip=&quot;clojure3/test/clojure3/core_test.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure3/test/clojure3/core_test.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;753&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_N4sbsLpGEeeciamP7xyOkQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="project.clj" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; partName=&quot;project.clj&quot; title=&quot;project.clj&quot; tooltip=&quot;clojure3/project.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure3/project.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;13&quot; selectionOffset=&quot;280&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_0ffGALpsEeeciamP7xyOkQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="clojure4.core" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;core.clj&quot; partName=&quot;clojure4.core&quot; title=&quot;clojure4.core&quot; tooltip=&quot;clojure4/src/clojure4/core.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure4/src/clojure4/core.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2275&quot; selectionTopPixel=&quot;1306&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_7GBtcLpyEeeciamP7xyOkQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="project.clj" iconURI="platform:/plugin/ccw.core/icons/clojure16x16.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;ccw.clojureeditor&quot; name=&quot;project.clj&quot; partName=&quot;project.clj&quot; title=&quot;project.clj&quot; tooltip=&quot;clojure4/project.clj&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/clojure4/project.clj&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;288&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>ccw.clojureeditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_e5JnYMIaEeeX7ZjgaVdy9g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ParallelArray.rb" iconURI="platform:/plugin/org.eclipse.dltk.ruby.ui/icons/obj16/ruby_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.dltk.ruby.ui.editor.RubyEditor&quot; name=&quot;ParallelArray.rb&quot; partName=&quot;ParallelArray.rb&quot; title=&quot;ParallelArray.rb&quot; tooltip=&quot;Ruby2/ParallelArray.rb&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Ruby2/ParallelArray.rb&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;577&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.dltk.ruby.ui.editor.RubyEditor</tags>
-          <tags>removeOnHide</tags>
+          <tags>active</tags>
           <tags>activeOnClose</tags>
         </children>
       </children>
@@ -356,7 +290,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_CK67w6wREeeszocUQwf6oQ" elementId="org.eclipse.ui.views.ProblemView" visible="false"/>
+      <toolbar xmi:id="_CK67w6wREeeszocUQwf6oQ" elementId="org.eclipse.ui.views.ProblemView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_CK67xKwREeeszocUQwf6oQ" elementId="org.eclipse.jdt.ui.JavadocView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Javadoc" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/javadoc.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.jdt.internal.ui.infoviews.JavadocView"/>
@@ -382,12 +316,11 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
       <menus xmi:id="_CK67yKwREeeszocUQwf6oQ" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_CK67yawREeeszocUQwf6oQ" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_CK67yawREeeszocUQwf6oQ" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_CK670KwREeeszocUQwf6oQ" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.BookmarksView"/>
@@ -543,13 +476,13 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CK68HqwREeeszocUQwf6oQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xp5TAME9EeeX7ZjgaVdy9g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_CLI-gawREeeszocUQwf6oQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_TNLDAMetEeeVnphIeno_hQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_CLI-gawREeeszocUQwf6oQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CK7itawREeeszocUQwf6oQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_CK7itqwREeeszocUQwf6oQ" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_CK7i5KwREeeszocUQwf6oQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_CK7i5KwREeeszocUQwf6oQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CK7i6qwREeeszocUQwf6oQ" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -567,7 +500,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CK7i96wREeeszocUQwf6oQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xqUJwME9EeeX7ZjgaVdy9g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_CLI-MawREeeszocUQwf6oQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_TNZsgMetEeeVnphIeno_hQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_CLI-MawREeeszocUQwf6oQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_CK7jAqwREeeszocUQwf6oQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -745,19 +678,19 @@
     <bindings xmi:id="_CK8xH6wREeeszocUQwf6oQ" keySequence="CTRL+SHIFT+ARROW_DOWN" command="_CLEtmqwREeeszocUQwf6oQ"/>
   </bindingTables>
   <bindingTables xmi:id="_CK8xIKwREeeszocUQwf6oQ" elementId="org.eclipse.ui.contexts.window" bindingContext="_CK9_Y6wREeeszocUQwf6oQ">
-    <bindings xmi:id="_51qakME9EeeX7ZjgaVdy9g" keySequence="ALT+U I" command="_3fCU0K6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XnR20MetEeeVnphIeno_hQ" keySequence="ALT+U I" command="_3fCU0K6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
-    <bindings xmi:id="_500GAME9EeeX7ZjgaVdy9g" keySequence="ALT+U N" command="_3cdh8K6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XlyCAMetEeeVnphIeno_hQ" keySequence="ALT+U N" command="_3cdh8K6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
-    <bindings xmi:id="_5xXwcME9EeeX7ZjgaVdy9g" keySequence="ALT+U S" command="_3Z-1sK6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XkEx0MetEeeVnphIeno_hQ" keySequence="ALT+U S" command="_3Z-1sK6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
-    <bindings xmi:id="_5mmD0ME9EeeX7ZjgaVdy9g" keySequence="ALT+U H" command="_25CEwK6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XQFe0MetEeeVnphIeno_hQ" keySequence="ALT+U H" command="_25CEwK6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
-    <bindings xmi:id="_5jYXwME9EeeX7ZjgaVdy9g" keySequence="ALT+U A" command="_2fRg8K6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XMTLAMetEeeVnphIeno_hQ" keySequence="ALT+U A" command="_2fRg8K6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
     <bindings xmi:id="_CK8xIawREeeszocUQwf6oQ" keySequence="CTRL+B" command="_CLEtBqwREeeszocUQwf6oQ"/>
@@ -936,13 +869,13 @@
     </bindings>
   </bindingTables>
   <bindingTables xmi:id="_CK9YQawREeeszocUQwf6oQ" elementId="org.eclipse.ui.textEditorScope" bindingContext="_CK9_Z6wREeeszocUQwf6oQ">
-    <bindings xmi:id="_53zvoME9EeeX7ZjgaVdy9g" keySequence="CTRL+-" command="_3j6NwK6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XqsXMMetEeeVnphIeno_hQ" keySequence="CTRL+-" command="_3j6NwK6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
-    <bindings xmi:id="_53UncME9EeeX7ZjgaVdy9g" keySequence="CTRL+=" command="_3ht1YK6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XqKywMetEeeVnphIeno_hQ" keySequence="CTRL+=" command="_3ht1YK6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
-    <bindings xmi:id="_5280AME9EeeX7ZjgaVdy9g" keySequence="CTRL++" command="_3ht1YK6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XpYIkMetEeeVnphIeno_hQ" keySequence="CTRL++" command="_3ht1YK6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
     <bindings xmi:id="_CK9YQqwREeeszocUQwf6oQ" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_CLFUH6wREeeszocUQwf6oQ"/>
@@ -1210,13 +1143,13 @@
     <bindings xmi:id="_xqwpEK6OEeebe9y2VfaATQ" keySequence="CTRL+0 ARROW_LEFT" command="_xnnOeK6OEeebe9y2VfaATQ"/>
   </bindingTables>
   <bindingTables xmi:id="_xp5GYK6OEeebe9y2VfaATQ" elementId="ccw.ui.context.repl" bindingContext="_xn0Cwq6OEeebe9y2VfaATQ">
-    <bindings xmi:id="_53-uwME9EeeX7ZjgaVdy9g" keySequence="CTRL+-" command="_3j6NwK6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XrK4UMetEeeVnphIeno_hQ" keySequence="CTRL+-" command="_3j6NwK6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
-    <bindings xmi:id="_53dxYME9EeeX7ZjgaVdy9g" keySequence="CTRL+=" command="_3ht1YK6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_XqVK0MetEeeVnphIeno_hQ" keySequence="CTRL+=" command="_3ht1YK6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
-    <bindings xmi:id="_53HMEME9EeeX7ZjgaVdy9g" keySequence="CTRL++" command="_3ht1YK6OEeebe9y2VfaATQ">
+    <bindings xmi:id="_Xplj8MetEeeVnphIeno_hQ" keySequence="CTRL++" command="_3ht1YK6OEeebe9y2VfaATQ">
       <tags>ccw</tags>
     </bindings>
     <bindings xmi:id="_xp5GYa6OEeebe9y2VfaATQ" keySequence="CTRL+ARROW_DOWN" command="_xnlZRa6OEeebe9y2VfaATQ">
@@ -3015,7 +2948,7 @@
   <addons xmi:id="_CLLaw6wREeeszocUQwf6oQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_CLLaxKwREeeszocUQwf6oQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_CLLaxawREeeszocUQwf6oQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_s8w1gcE9EeeX7ZjgaVdy9g" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_QTp4McetEeeVnphIeno_hQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_CLLax6wREeeszocUQwf6oQ" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_CLLayKwREeeszocUQwf6oQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_CLLayawREeeszocUQwf6oQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

@@ -11,39 +11,41 @@
               Step))))
 
 (defn- IFun
-  [fun, i]
-  (*
-    Step
-    (double 1/2)
-    (+
-      (fun (* Step i))
-      (fun (* Step (dec i))))))
+  [fun]
+  (fn [i]
+    (*
+      Step
+      (double 1/2)
+      (+
+        (fun (* Step i))
+        (fun (* Step (dec i)))))))
 
-(defn- ISum [ifun, fun, count]
+(defn- ISum [ifun, count]
   (loop [i count
          acc (double 0)]
     (if (pos? i)
-      (recur (dec i) (+ acc (ifun fun i)))
+      (recur (dec i) (+ acc (ifun i)))
       acc)))
   
 (defn IntegrateFun [fun]
   (fn [x]
     (let [count (GetCountStep x)
-          ifun (IFun fun)]
+          ifun  (IFun fun)]
       (ISum ifun count))))
 
 
 
 (def IFun-memo
-  (memoize IFun))
-
+  (memoize
+    (fn [fun]
+        (memoize (IFun fun)))))
 
 (defn IntegrateFun-memo
   [fun]
   (fn [x]
     (let [count (GetCountStep x)
-          ifun IFun-memo]
-      (ISum ifun fun count))))
+          ifun  (IFun-memo fun)]
+      (ISum ifun count))))
 
 (defn foo [x]
   (Thread/sleep 100)

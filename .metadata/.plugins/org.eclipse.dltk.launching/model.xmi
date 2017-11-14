@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <launch:InterpreterInfo xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:launch="http://www.eclipse.org/dltk/launching.ecore" environment="org.eclipse.dltk.core.environment.localEnvironment" location="C:/Ruby24-x64/bin/ruby.exe">
-  <contents xsi:type="launch:InterpreterGeneratedContent" key="scripts/builtin.rb" interpreterLastModified="2017-09-15T12:47:08.000+0700" fetchedAt="2017-11-04T15:55:29.233+0700" lastModified="2017-11-04T15:55:29.233+0700">
+  <contents xsi:type="launch:InterpreterGeneratedContent" key="scripts/builtin.rb" interpreterLastModified="2017-09-15T12:47:08.000+0700" fetchedAt="2017-11-12T19:23:08.288+0700" lastModified="2017-11-12T19:23:08.288+0700">
     <value>#### DLTK RUBY BUILTINS ####ARGF.class.rb</value>
     <value></value>
     <value>class ARGF.class  &lt; ::Object</value>
@@ -4488,7 +4488,7 @@
     <value></value>
     <value>class Gem::Requirement  &lt; ::Object</value>
     <value>OPS=Hash.new</value>
-    <value>SOURCE_SET_REQUIREMENT=#&lt;Class:0x0000000002d6eeb0>.new</value>
+    <value>SOURCE_SET_REQUIREMENT=#&lt;Class:0x0000000002f8f0c8>.new</value>
     <value>PATTERN_RAW=String.new</value>
     <value>PATTERN=Regexp.new</value>
     <value>DefaultRequirement=Array.new</value>
@@ -4665,7 +4665,7 @@
     <value>TODAY=Time.new</value>
     <value>VALID_NAME_PATTERN=Regexp.new</value>
     <value>Dupable=Hash.new</value>
-    <value>NOT_FOUND=#&lt;Class:0x0000000002d1bcb0>.new</value>
+    <value>NOT_FOUND=#&lt;Class:0x0000000002f3f258>.new</value>
     <value>EMPTY=Array.new</value>
     <value>DateLike=Object.new</value>
     <value>DateTimeFormat=Regexp.new</value>
@@ -8882,6 +8882,2384 @@
     <value>	end</value>
     <value></value>
     <value>	def self.exclusive()</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Thread.rb</value>
+    <value></value>
+    <value>class Thread::Backtrace  &lt; ::Object</value>
+    <value>	class &lt;&lt; ::Thread::Backtrace</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Thread.rb</value>
+    <value></value>
+    <value>class Thread::Backtrace::Location  &lt; ::Object</value>
+    <value>	class &lt;&lt; ::Thread::Backtrace::Location</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def path()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def lineno()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def absolute_path()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def label()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def base_label()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Thread.rb</value>
+    <value></value>
+    <value>class Thread::ConditionVariable  &lt; ::Object</value>
+    <value>	class &lt;&lt; ::Thread::ConditionVariable</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def marshal_dump()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def wait(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def signal()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def broadcast()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def initialize()</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Thread.rb</value>
+    <value></value>
+    <value>class Thread::Mutex  &lt; ::Object</value>
+    <value>	class &lt;&lt; ::Thread::Mutex</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def owned?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def locked?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def try_lock()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def lock()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def unlock()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sleep(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def synchronize()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def initialize()</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Thread.rb</value>
+    <value></value>
+    <value>class Thread::Queue  &lt; ::Object</value>
+    <value>	class &lt;&lt; ::Thread::Queue</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def &lt;&lt;(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def empty?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def length()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def size()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def clear()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def push(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def pop(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def shift(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def marshal_dump()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def close()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def closed?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def num_waiting()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def enq(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def deq(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def initialize()</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Thread.rb</value>
+    <value></value>
+    <value>class Thread::SizedQueue  &lt; ::Thread::Queue</value>
+    <value>	class &lt;&lt; ::Thread::SizedQueue</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def &lt;&lt;(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def max()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def clear()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def push(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def pop(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def shift(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def close()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def num_waiting()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def enq(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def deq(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def max=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def initialize(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####ThreadError.rb</value>
+    <value></value>
+    <value>class ThreadError  &lt; ::StandardError</value>
+    <value>	class &lt;&lt; ::ThreadError</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####ThreadGroup.rb</value>
+    <value></value>
+    <value>class ThreadGroup  &lt; ::Object</value>
+    <value>Default=ThreadGroup.new</value>
+    <value>	class &lt;&lt; ::ThreadGroup</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def list()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def enclose()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def enclosed?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def add(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Time.rb</value>
+    <value></value>
+    <value>class Time  &lt; ::Object</value>
+    <value>	include Comparable</value>
+    <value>	class &lt;&lt; ::Time</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def +(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def -(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def min()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def succ()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_a()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_i()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_f()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def round(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def ctime()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def zone()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def utc()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_r()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def localtime(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gmtime()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getlocal(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getgm()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getutc()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def asctime()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sec()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def hour()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mday()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def day()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def month()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def year()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def wday()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def yday()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def isdst()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def dst?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gmtoff()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gmt_offset()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def utc_offset()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def utc?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gmt?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sunday?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def monday?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def tuesday?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def wednesday?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def thursday?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def friday?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def saturday?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def tv_sec()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def tv_usec()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def usec()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def tv_nsec()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def nsec()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def subsec()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def strftime(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def initialize(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def _dump(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.at(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.now()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.utc(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.gm(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.local(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.mktime(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####TracePoint.rb</value>
+    <value></value>
+    <value>class TracePoint  &lt; ::Object</value>
+    <value>	class &lt;&lt; ::TracePoint</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def path()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def lineno()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def binding()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def enable()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def disable()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def enabled?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def event()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def method_id()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def callee_id()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def defined_class()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def return_value()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def raised_exception()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def self.new(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.stat()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.trace(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####TrueClass.rb</value>
+    <value></value>
+    <value>class TrueClass  &lt; ::Object</value>
+    <value>	class &lt;&lt; ::TrueClass</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def &amp;(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def ^(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def |(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####TypeError.rb</value>
+    <value></value>
+    <value>class TypeError  &lt; ::StandardError</value>
+    <value>	class &lt;&lt; ::TypeError</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####UnboundMethod.rb</value>
+    <value></value>
+    <value>class UnboundMethod  &lt; ::Object</value>
+    <value>	class &lt;&lt; ::UnboundMethod</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def ==(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def name()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def arity()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def source_location()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def parameters()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def original_name()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def owner()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def super_method()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def bind(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####UncaughtThrowError.rb</value>
+    <value></value>
+    <value>class UncaughtThrowError  &lt; ::ArgumentError</value>
+    <value>	class &lt;&lt; ::UncaughtThrowError</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def tag()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def value()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def initialize(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####ZeroDivisionError.rb</value>
+    <value></value>
+    <value>class ZeroDivisionError  &lt; ::StandardError</value>
+    <value>	class &lt;&lt; ::ZeroDivisionError</value>
+    <value>		include Kernel</value>
+    <value>	end</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####fatal.rb</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####MonitorMixin.rb</value>
+    <value></value>
+    <value>module MonitorMixin</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def synchronize()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon_try_enter()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def try_mon_enter()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon_enter()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon_exit()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon_synchronize()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def new_cond()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def initialize(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon_check_owner()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon_exit_for_cond()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon_enter_for_cond(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def mon_initialize()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.extend_object(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####DidYouMean.rb</value>
+    <value></value>
+    <value>module DidYouMean</value>
+    <value>VERSION=String.new</value>
+    <value>IGNORED_CALLERS=Array.new</value>
+    <value>SPELL_CHECKERS=Hash.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Gem.rb</value>
+    <value></value>
+    <value>module Gem</value>
+    <value>ConfigFile=Class.new</value>
+    <value>MARSHAL_SPEC_DIR=String.new</value>
+    <value>DependencyList=Class.new</value>
+    <value>DependencyResolver=Class.new</value>
+    <value>Installer=Class.new</value>
+    <value>Licenses=Class.new</value>
+    <value>Resolver=Class.new</value>
+    <value>Source=Class.new</value>
+    <value>GEM_PRELUDE_SUCKAGE=NilClass.new</value>
+    <value>VERSION=String.new</value>
+    <value>RUBYGEMS_DIR=String.new</value>
+    <value>WIN_PATTERNS=Array.new</value>
+    <value>GEM_DEP_FILES=Array.new</value>
+    <value>REPOSITORY_SUBDIRECTORIES=Array.new</value>
+    <value>REPOSITORY_DEFAULT_GEM_SUBDIRECTORIES=Array.new</value>
+    <value>READ_BINARY_ERRORS=Array.new</value>
+    <value>DEFAULT_HOST=String.new</value>
+    <value>WRITE_BINARY_ERRORS=Array.new</value>
+    <value>RubyGemsVersion=String.new</value>
+    <value>RbConfigPriorities=Array.new</value>
+    <value>ConfigMap=Hash.new</value>
+    <value>LOADED_SPECS_MUTEX=Thread::Mutex.new</value>
+    <value>RubyGemsPackageVersion=String.new</value>
+    <value>RequestSet=Class.new</value>
+    <value>SpecFetcher=Class.new</value>
+    <value>SourceList=Class.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def self.load_plugin_files(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.load_plugins()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.load_env_plugins()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.use_gemdeps(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.detect_gemdeps(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.gemdeps()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.register_default_spec(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_gems_use_full_paths?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.find_unresolved_default_spec(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.remove_unresolved_default_spec(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.clear_default_specs()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.post_build_hooks()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.post_install_hooks()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.done_installing_hooks()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.post_reset_hooks()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.post_uninstall_hooks()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.pre_install_hooks()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.pre_reset_hooks()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.pre_uninstall_hooks()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_spec_cache_dir()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.ruby_engine()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_ext_dir_for(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_rubygems_dirs()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.user_dir()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.path_separator()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_path()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.try_activate(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_exec_format()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.vendor_dir()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_key_path()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.install_extension_in_lib()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.platform_defaults()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_cert_path()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.needs()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.finish_resolve(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.loaded_specs()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.bin_path(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.activate_bin_path(arg1, arg2, arg3)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.binary_mode()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.bindir(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.dir()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_dir()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_bindir()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.clear_paths()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.config_file()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.user_home()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.configuration()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.configuration=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.datadir(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.deflate(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.paths()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.paths=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.spec_cache_dir()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.ensure_gem_subdirectories(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.ensure_subdirectories(arg1, arg2, arg3)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.ensure_default_gem_subdirectories(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.extension_api_version()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.ruby_api_version()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.find_files(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.find_files_from_load_path(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.suffix_pattern()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.find_latest_files(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.gunzip(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.gzip(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.inflate(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.install(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.host()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.host=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.load_path_insert_index()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.load_yaml()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.location_of_caller()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.marshal_version()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.platforms=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.platforms()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.post_build()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.post_install()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.done_installing()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.post_reset()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.post_uninstall()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.pre_install()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.pre_reset()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.pre_uninstall()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.prefix()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.refresh()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.read_binary(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.write_binary(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.ruby()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.env_requirement(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.latest_spec_for(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.latest_rubygems_version()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.latest_version_for(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.ruby_version()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.rubygems_version()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.path()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.sources()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.default_sources()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.sources=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.suffixes()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.time(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.ui()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.use_paths(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.win_platform?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Process.rb</value>
+    <value></value>
+    <value>module Process::Sys</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def getuid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def geteuid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getgid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getegid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setuid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setgid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setruid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setrgid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def seteuid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setegid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setreuid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setregid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setresuid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setresgid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def issetugid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Process.rb</value>
+    <value></value>
+    <value>module Process::GID</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def rid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def eid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def change_privilege(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def grant_privilege(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def re_exchange()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def re_exchangeable?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sid_available?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def switch()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def from_name()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.eid=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Process.rb</value>
+    <value></value>
+    <value>module Process::UID</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def rid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def eid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def change_privilege(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def grant_privilege(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def re_exchange()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def re_exchangeable?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sid_available?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def switch()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def from_name()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.eid=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Process.rb</value>
+    <value></value>
+    <value>module Process</value>
+    <value>WNOHANG=Integer.new</value>
+    <value>WUNTRACED=Integer.new</value>
+    <value>CLOCK_REALTIME=Integer.new</value>
+    <value>CLOCK_MONOTONIC=Integer.new</value>
+    <value>CLOCK_PROCESS_CPUTIME_ID=Integer.new</value>
+    <value>CLOCK_THREAD_CPUTIME_ID=Integer.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def times()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def pid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def uid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def kill(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def wait(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def wait2(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def waitpid(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def waitpid2(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def waitall()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def detach(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def ppid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getpgrp()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setpgrp()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getpgid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setpgid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getsid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setsid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getpriority()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setpriority()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def getrlimit()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setrlimit()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def uid=()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gid=()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def euid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def euid=()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def egid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def egid=()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def initgroups()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def groups()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def groups=()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def maxgroups()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def maxgroups=()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def daemon()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def clock_gettime(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def clock_getres(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def argv0()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setproctitle(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.fork()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.exit(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.exec(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.exit!(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.spawn(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.abort(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####ObjectSpace.rb</value>
+    <value></value>
+    <value>module ObjectSpace</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def garbage_collect(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def each_object(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def define_finalizer(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def undefine_finalizer(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def _id2ref(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def count_objects(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####GC.rb</value>
+    <value></value>
+    <value>module GC::Profiler</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def self.clear()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.result()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.enable()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.disable()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.enabled?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.raw_data()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.report(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.total_time()</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####GC.rb</value>
+    <value></value>
+    <value>module GC</value>
+    <value>INTERNAL_CONSTANTS=Hash.new</value>
+    <value>OPTS=Array.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def garbage_collect(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def self.count()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.stat(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.start(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.enable()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.disable()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.stress()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.stress=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.latest_gc_info(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.verify_internal_consistency()</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Math.rb</value>
+    <value></value>
+    <value>module Math</value>
+    <value>PI=Float.new</value>
+    <value>E=Float.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def atan2(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def cos(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sin(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def tan(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def acos(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def asin(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def atan(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def cosh(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sinh(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def tanh(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def acosh(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def asinh(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def atanh(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def exp(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def log(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def log2(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def log10(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sqrt(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def cbrt(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def frexp(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def ldexp(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def hypot(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def erf(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def erfc(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gamma(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def lgamma(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Signal.rb</value>
+    <value></value>
+    <value>module Signal</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def list()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def trap(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def signame(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Random.rb</value>
+    <value></value>
+    <value>module Random::Formatter</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def hex(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def rand(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def random_number(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def random_bytes(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def urlsafe_base64(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def base64(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def uuid()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def gen_random(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####File.rb</value>
+    <value></value>
+    <value>module File::Constants</value>
+    <value>RDONLY=Integer.new</value>
+    <value>WRONLY=Integer.new</value>
+    <value>RDWR=Integer.new</value>
+    <value>APPEND=Integer.new</value>
+    <value>CREAT=Integer.new</value>
+    <value>EXCL=Integer.new</value>
+    <value>NONBLOCK=Integer.new</value>
+    <value>TRUNC=Integer.new</value>
+    <value>BINARY=Integer.new</value>
+    <value>SHARE_DELETE=Integer.new</value>
+    <value>LOCK_SH=Integer.new</value>
+    <value>LOCK_EX=Integer.new</value>
+    <value>LOCK_UN=Integer.new</value>
+    <value>LOCK_NB=Integer.new</value>
+    <value>NULL=String.new</value>
+    <value>FNM_NOESCAPE=Integer.new</value>
+    <value>FNM_PATHNAME=Integer.new</value>
+    <value>FNM_DOTMATCH=Integer.new</value>
+    <value>FNM_CASEFOLD=Integer.new</value>
+    <value>FNM_EXTGLOB=Integer.new</value>
+    <value>FNM_SYSCASE=Integer.new</value>
+    <value>FNM_SHORTNAME=Integer.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####FileTest.rb</value>
+    <value></value>
+    <value>module FileTest</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def empty?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def size(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def zero?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def directory?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def exist?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def exists?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def readable?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def readable_real?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def world_readable?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def writable?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def writable_real?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def world_writable?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def executable?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def executable_real?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def file?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def size?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def owned?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def grpowned?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def pipe?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def symlink?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def socket?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def blockdev?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def chardev?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setuid?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def setgid?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sticky?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def identical?(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####IO.rb</value>
+    <value></value>
+    <value>module IO::WaitWritable</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####IO.rb</value>
+    <value></value>
+    <value>module IO::WaitReadable</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Marshal.rb</value>
+    <value></value>
+    <value>module Marshal</value>
+    <value>MAJOR_VERSION=Integer.new</value>
+    <value>MINOR_VERSION=Integer.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def dump(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def load(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def restore(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Warning.rb</value>
+    <value></value>
+    <value>module Warning</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def warn(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Errno.rb</value>
+    <value></value>
+    <value>module Errno</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Enumerable.rb</value>
+    <value></value>
+    <value>module Enumerable</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def max(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def min(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_a(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_h(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def include?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def find(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def entries(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sort()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sort_by()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def grep(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def grep_v(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def count(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def detect(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def find_index(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def find_all()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def select()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def reject()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def collect()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def map()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def flat_map()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def collect_concat()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def inject(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def reduce(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def partition()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def group_by()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def first(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def all?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def any?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def one?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def none?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def minmax()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def min_by(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def max_by(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def minmax_by()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def member?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def each_with_index(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def reverse_each(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def each_entry(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def each_slice(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def each_cons(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def each_with_object(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def zip(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def take(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def take_while()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def drop(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def drop_while()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def cycle(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def chunk()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def slice_before(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def slice_after(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def slice_when()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def chunk_while()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sum(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def uniq()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def lazy()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_set(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Comparable.rb</value>
+    <value></value>
+    <value>module Comparable</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def &lt;(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def >(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def &lt;=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def >=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def ==(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def between?(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def clamp(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Kernel.rb</value>
+    <value></value>
+    <value>module Kernel</value>
+    <value>RUBYGEMS_ACTIVATION_MONITOR=Monitor.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	def remove_instance_variable(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def instance_of?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def kind_of?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def is_a?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def tap()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def public_send(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def method(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def public_method(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def instance_variable_defined?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def define_singleton_method(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def instance_variable_set(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def singleton_method(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def extend(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_enum(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def enum_for(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def &lt;=>(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def ===(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def =~(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def !~(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def eql?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def respond_to?(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def freeze()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def inspect()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def object_id()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def send(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def display(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def to_s()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def nil?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def hash()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def class()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def singleton_class()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def clone(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def dup()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def itself()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def taint()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def tainted?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def untaint()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def untrust()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def untrusted?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def trust()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def frozen?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def methods(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def singleton_methods(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def protected_methods(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def private_methods(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def public_methods(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def instance_variable_get(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def instance_variables()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def sprintf(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def format(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def Integer(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def Float(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def String(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def Array(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def raise(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def Hash(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def global_variables()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def __method__()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def eval(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def __dir__()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def fail(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def catch(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def iterator?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def block_given?()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def throw(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def loop()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def __callee__()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def URI(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def Rational(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def trace_var(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def untrace_var(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def set_trace_func(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def at_exit()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def Complex(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gem(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gem_original_require(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def select(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def caller(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def caller_locations(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def `(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def test(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def fork()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def exit(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def sleep(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def respond_to_missing?(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def exec(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def load(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def system(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def exit!(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def abort(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def spawn(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def syscall()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def open(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def printf(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def print(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def putc(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def puts(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def readline(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def readlines(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def initialize_copy(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def initialize_clone(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def initialize_dup(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def srand(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def p(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def gets(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def proc()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def rand(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def trap(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def lambda()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def require(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def require_relative(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def autoload(arg1, arg2)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def autoload?(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def binding()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def local_variables()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def warn(*args)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####Gem.rb</value>
+    <value></value>
+    <value>module Gem::Deprecate</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def skip_during()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def deprecate(arg1, arg2, arg3, arg4)</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.skip()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.skip=(arg1)</value>
+    <value>	end</value>
+    <value></value>
+    <value>end</value>
+    <value></value>
+    <value>#### DLTK RUBY BUILTINS ####RbConfig.rb</value>
+    <value></value>
+    <value>module RbConfig</value>
+    <value>CONFIG=Hash.new</value>
+    <value>TOPDIR=String.new</value>
+    <value>DESTDIR=String.new</value>
+    <value>MAKEFILE_CONFIG=Hash.new</value>
+    <value>	</value>
+    <value>public</value>
+    <value>	</value>
+    <value>protected</value>
+    <value>	</value>
+    <value>private</value>
+    <value>	def self.ruby()</value>
+    <value>	end</value>
+    <value></value>
+    <value>	def self.expand(*args)</value>
     <value>	end</value>
     <value></value>
     <value>end</value>
